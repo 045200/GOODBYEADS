@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/github/last-commit/045200/GOODBYEADS?style=flat-square&color=blue" alt="last update" />
   </a>
   <a href="https://github.com/045200/GOODBYEADS">
-    <img src="https://img.shields.io/github/forks/04520/GOODBYEADS?style=flat-square&color=brightgreen" alt="forks" />
+    <img src="https://img.shields.io/github/forks/045200/GOODBYEADS?style=flat-square&color=brightgreen" alt="forks" />
   </a>
   <a href="https://github.com/045200/GOODBYEADS">
     <img src="https://img.shields.io/github/stars/045200/GOODBYEADS?style=flat-square&color=yellow" alt="stars" />
