@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-03-24 09:02:17（北京时间）
+! Version: 2026-03-24 20:42:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7723
+! Total count: 7722
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@&ad_type=$domain=ultimate-guitar.com
 @@&http_referer=$domain=chaopx.com
@@ -263,6 +263,7 @@
 @@|http*://*.*/*.$image,3p,domain=a2zupload.com
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|https://$xhr,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
+@@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|ws://*$websocket,domain=flirt4free.com
 @@||*/abd.js^$domain=amybakesbread.com|downshiftology.com|halfbakedharvest.com|krollskorner.com|natashaskitchen.com|onceuponachef.com|sallysbakingaddiction.com|simply-delicious-food.com|skinnytaste.com|spendwithpennies.com|tastesbetterfromscratch.com|themediterraneandish.com|thewoksoflife.com|titlecaseconverter.com|whec.com
 @@||*ad*.ksyungslb.com^
@@ -2445,6 +2446,7 @@
 @@||dtdc.in/tracking^
 @@||du.163.com^$document
 @@||duckduckgo.com/?q=$generichide
+@@||duelmeta.com^$generichide
 @@||dupedornot.com^$generichide
 @@||duplichecker.com^$generichide
 @@||dushu.ru^$script,domain=bhshu.net
@@ -4231,7 +4233,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=rtl.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=sbs.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=shahid.mbc.net
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=shares.enetres.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=skai.gr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=sondakika.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=spox.com
@@ -4368,7 +4369,6 @@
 @@||infojobs.com.br/mf-publicarea/_content/InfoJobs.Microfrontend.Components/js/smarttag.js
 @@||informazionefiscale.it^$generichide
 @@||infotop.jp/html/ad/$image,~3p
-@@||infowars.com/wp-content/themes/$image
 @@||infusionsoft.app/aff.html$subdocument,domain=pages.infusionsoft.net|reginadancecity.ca
 @@||infusionsoft.com/aff.html$subdocument,domain=pages.infusionsoft.net|reginadancecity.ca
 @@||ing-diba.de^*/sitestat.js
@@ -5490,7 +5490,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk|comicallyincorrect.com|thegatewaypundit.com|toptenz.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=portmiamiwebcam.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=production-api.androidacy.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=puressh.net|iptvbin.com|htnovo.net|frendz4m.org|bestnhl.com|safbits.com|codenova-center.web.app|rivanimation.com|elbierzodigital.com|uploadrar.com|vknsorgula.net|safelink.asia
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=puressh.net|iptvbin.com|htnovo.net|frendz4m.org|safbits.com|codenova-center.web.app|rivanimation.com|elbierzodigital.com|uploadrar.com|vknsorgula.net|safelink.asia
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=quienhabla.mx,xhr
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=radiotunes.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rain-alarm.com
@@ -5558,7 +5558,6 @@
 @@||palmettostatearmory.com/static/$script,~third-party
 @@||pals.pa.gov/vendor/analytics/$~third-party
 @@||pan.quark.cn^
-@@||pandora.com/images/public/devicead/$image
 @@||pandora.com/static/ads/
 @@||pandora.com/web-client-assets/ads.*.js
 @@||pandora.com/web-version/*/*.json
@@ -5911,6 +5910,7 @@
 @@||query.petametrics.com^$image,xmlhttprequest,domain=mechacomic.jp
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=lanacion.com.ar
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=ranker.com
+@@||qwhdcdn.cmcc-cs.cn^
 @@||qzonestyle.gtimg.cn^
 @@||r.linksprf.com/*/redirect?
 @@||r10s.jp/com/img/home/t.gif?$domain=24.rakuten.co.jp
@@ -6621,7 +6621,6 @@
 @@||st.wetteronline.de/dr/*/css/p_*.css
 @@||stackblitz.com^$generichide
 @@||staging.flash.sec.miui.com^$document
-@@||standard.co.uk/js/third-party/prebid8.$~3p
 @@||standardmedia.co.ke/assets/js/prebid-google-ads.js
 @@||stapewithadblock.monster^$generichide
 @@||star-telegram.com/mistats/sites/dfw/startelegram.js
@@ -6729,6 +6728,7 @@
 @@||static.vrv.co^$media,domain=crunchyroll.com
 @@||static.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@||static00.forvo.com/_presentation/assets/js/vendor_mobile_no_ads.js
+@@||static5.hsg.com.pl/adv-scroll-sidebar.js$domain=jelonka.com
 @@||statics.zcool.com.cn/track/sensors.$script,~third-party
 @@||staticsns.cdn.bcebos.com^
 @@||staticsns.cdn.bcebos.com^$document
@@ -7315,7 +7315,6 @@
 @@||verdirectotv.com^$generichide
 @@||verify.snssdk.com^$document
 @@||verizon.com/images/track/track.gif?track=load&$xmlhttprequest
-@@||verticalscope-com.videoplayerhub.com/galleryplayer.js$domain=avsforum.com
 @@||verticalscope-com.videoplayerhub.com/galleryplayer.js$domain=skyscrapercity.com
 @@||vg247.com/wp-content/themes/vg247/scripts/AdsLoad.js
 @@||viamichelin.*/jQuery/ntpagetag.js
