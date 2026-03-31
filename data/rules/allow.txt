@@ -2,7 +2,7 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-03-31 09:14:08（北京时间）
+! Version: 2026-03-31 20:47:11（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 7716
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -422,6 +422,7 @@
 @@||ab.blogs.es/abtest.png$image,domain=xataka.com|trendencias.com
 @@||ab.blogs.es/abtest.png?editorialRecommendations$domain=applesfera.com
 @@||abchina.com^*ad
+@@||abcnews.com/assets/player/$script,~3p
 @@||abczdrowie.pl^$generichide
 @@||aboluowang.com^$generichide
 @@||about-australia.com/*/clickheat.js
@@ -500,7 +501,6 @@
 @@||ad.mail.ru/adp/?_SITEZONE=15&json=1^$xmlhttprequest,domain=mail.ru
 @@||ad.mcloud.139.com^$document
 @@||ad.nl/ad/
-@@||ad.ourgame.com^
 @@||ad.ourgame.com^$document
 @@||ad.smartmediarep.com/NetInsight/video/smr$domain=programs.sbs.co.kr
 @@||ad.thsi.cn/siteHome/
@@ -740,6 +740,7 @@
 @@||ali-ky.static.yximgs.com^
 @@||ali.static.yximgs.com^
 @@||alicdn.com/??*/tracker/
+@@||alicdn.com/alilog/mlog/aplus_v2.js$domain=qianwen.com
 @@||alicdn.com/dt/tracker/2.5.1/tracker.js$domain=alimama.com
 @@||alicdn.com/dt/tracker/4.2.0/??tracker.
 @@||alicdn.com/js/*/xpopup.js
@@ -1779,7 +1780,6 @@
 @@||cdnb.4strokemedia.com/carousel/v4/comscore-JS-$script
 @@||cdnb.4strokemedia.com^$domain=video.corriere.it
 @@||cdnb.4strokemedia.com^$domain=video.gazzetta.it
-@@||cdncontent.wakanim.tv/scripts/dist/ads.js
 @@||cdncontent.wakanim.tv/scripts/dist/ads.js$script,xmlhttprequest,~third-party
 @@||cdnjs.cloudflare.com/ajax/libs/*.min.js$domain=audioz.download
 @@||cdnjs.cloudflare.com/ajax/libs/Swiper/*/js/swiper.min.js$domain=9anime.*
@@ -2406,6 +2406,7 @@
 @@||doubleclick.net/activity$domain=northwell.edu
 @@||doubleclick.net/activityi;src=$domain=cicispizza.com
 @@||doubleclick.net/clk;$popup,domain=3g.co.uk|4g.co.uk|hotukdeals.com|jobamatic.com|play.google.com|santander.co.uk|techrepublic.com
+@@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com
 @@||doubleclick.net/ddm/trackclk/$popup,domain=hongkongcard.com
 @@||doubleclick.net/gpt/pubads_impl$domain=www.gamer.com.tw
 @@||doubleclick.net/|$xhr,domain=tvnz.co.nz
@@ -2506,6 +2507,7 @@
 @@||eddiebauer.com/__ssobj/core.js+ssdomvar.js+generic-adapter.js
 @@||eden.international/script/ad_banner/
 @@||eden.org.tw^*/ad_banner/
+@@||edge.adobedc.net/ee/$xmlhttprequest,domain=vivo.com.br
 @@||edge.microsoft.com/translate/auth
 @@||edge.permutive.app/*-web.js$domain=eldo.lu
 @@||edge1.certona.net/*/scripts/resonance.js$domain=canadiantire.ca
@@ -2722,7 +2724,6 @@
 @@||flormar.webinstats.com^$domain=flormar.com.tr
 @@||fltaradio.com/js/ads.js
 @@||flyert.com/plug/socialShare/js/social-share.
-@@||flying-lines.com/banners/$image,~3p
 @@||flyordie.com/games/online/iframeafg*.html
 @@||fm.ipinyou.$domain=ipinyou.com.cn
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
@@ -2823,6 +2824,7 @@
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=koigaku.machicon.jp
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=ukr.net
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=sudokugame.org
+@@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xhr,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/pagead/ads?gdpr=$subdocument,domain=decrypt.day
 @@||g.doubleclick.net/pagead/images/gmob/close-circle-30x30.png$image,domain=safeframe.googlesyndication.com
 @@||g.doubleclick.net/pagead/managed/js/gpt/$script,domain=adamtheautomator.com|allestoringen.be|allestoringen.nl|aussieoutages.com|canadianoutages.com|downdetector.ae|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.br|downdetector.dk|downdetector.es|downdetector.fi|downdetector.fr|downdetector.hk|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.no|downdetector.pl|downdetector.pt|downdetector.ru|downdetector.se|downdetector.sg|downdetector.tw|downdetector.web.tr|euronews.com|filmweb.pl|hoyme.jp|ictnews.org|journaldequebec.com|kino.de|samsclub.com|spiegel.de|thestar.co.uk|thestreet.com|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de|yorkshirepost.co.uk
@@ -3903,7 +3905,6 @@
 @@||haberler.com/static/video-js/video-ads.js
 @@||habr.com/img/px.gif?
 @@||hach.de^*/emstrack.js
-@@||hackingwithphp.com/js/adsbygoogle.js
 @@||haichaobiao.com^$generichide
 @@||haiwai.com^$generichide
 @@||halykbank.kz/assets/js/fingerprint2.min.js
@@ -4000,6 +4001,7 @@
 @@||hot.browser.miui.com^$document
 @@||hotmail.com/mail/*/i2a.js
 @@||hotpornfile.org/wp-admin/admin-ajax.php$domain=hotpornfile.org
+@@||hotstar.com/vs/getad.php$domain=hotstar.com
 @@||hotstarext.com/web-messages/core/error/v52.json$xmlhttprequest,domain=hotstar.com
 @@||hotwirestatic.com^*/opinionLab.js$domain=hotwire.com
 @@||howsmyssl.com^$script,domain=trenitalia.fr
@@ -4362,7 +4364,6 @@
 @@||indianrailways.info/js/adblocker.js
 @@||indiansgetfucked.com$generichide
 @@||indiatimes.com/configspace/
-@@||indiatoday.in/embed-live-tv?
 @@||inews.gtimg.com^
 @@||infinityscans.*/*.js$script,domain=infinityscans.xyz|infinityscans.net|infinityscans.org
 @@||info.seek.com/b/ss/$image,domain=seek.com.au
@@ -5777,7 +5778,6 @@
 @@||pptv.com/webdelivery/webafp?cb=loadAdStatus&*sports.pp
 @@||prd.jwpltx.com/*/jwplayer$domain=embed.watchanimesub.net
 @@||prebid-asia.creativecdn.com/bidder/prebid/bids$domain=atozmath.com
-@@||premium-link.ninja/js/blockadblock.js
 @@||preromanbritain.com/maxymiser/$~3p
 @@||prgwonders.blogspot.com^$generichide
 @@||primis.tech^$domain=sportsmole.co.uk
@@ -5907,7 +5907,6 @@
 @@||query.petametrics.com^$image,xmlhttprequest,domain=mechacomic.jp
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=lanacion.com.ar
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=ranker.com
-@@||qwhdcdn.cmcc-cs.cn^
 @@||qzonestyle.gtimg.cn^
 @@||r.linksprf.com/*/redirect?
 @@||r10s.jp/com/img/home/t.gif?$domain=24.rakuten.co.jp
@@ -7695,6 +7694,7 @@
 @@||zdbb.net/r/?*&mailing
 @@||zdf.de/zdf/flash/eplayer/player.swf?*/cgi-bin/ivw/
 @@||zdopravy.cz^$generichide
+@@||zeebiz.com/ads/$image,~3p
 @@||zeekmagazine.com/wp-content/plugins/wp-ad-guru/assets/js/adguru.js
 @@||zeit.de/piwik/piwik.js$domain=schach.zeit.de
 @@||zeit.de/static/js/webtrekk/webtrekk_$script,domain=schach.zeit.de
