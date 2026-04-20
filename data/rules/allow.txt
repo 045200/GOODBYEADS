@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-04-20 09:22:50（北京时间）
+! Version: 2026-04-20 21:01:44（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7847
+! Total count: 7850
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@&ad_type=$domain=ultimate-guitar.com
@@ -207,7 +207,6 @@
 @@/urchin.js$domain=on.cc
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net
 @@/walla_vod/*$domain=walla.co.il
-@@/weborama.js$~3p,domain=zertalious.xyz|digworm.io
 @@/webtracking/*$domain=pasts.lv
 @@/wp-content/*/social_$domain=servercat.me
 @@/wp-content/plugins/ad-ace//includes/adblock-detector/advertisement.js$~3p
@@ -697,6 +696,7 @@
 @@||adv.clickadu.com^$domain=adv.clickadu.com
 @@||adv.gg^$popup
 @@||adv.welaika.com^$popup
+@@||adv.wp.pl/RM/Box/c/b/money_rail_and_frames/money-rail-1.0.2.js
 @@||advert.kf5.com^
 @@||advertisement.taobao.com^$document
 @@||adverts.ie/css/
@@ -2027,7 +2027,6 @@
 @@||cmp.inmobi.com/choice/*/choice.js$domain=express.co.uk
 @@||cmp.inmobi.com/geoip$domain=express.co.uk
 @@||cmp.inmobi.com/tcfv2/*.js$domain=express.co.uk
-@@||cmp.inmobi.com^$domain=glasgowlive.co.uk
 @@||cmp.inmobi.com^$domain=innpoland.pl|aszdziennik.pl|mamadu.pl|dadhero.pl|hideout.co|fly4free.pl|travlerz.com|protothema.gr|cyprus-mail.com|wpolityce.pl
 @@||cmp.inmobi.com^$domain=protothema.gr
 @@||cmp.inmobi.com^$domain=the-express.com
@@ -2426,6 +2425,7 @@
 @@||docs.google.com^$generichide
 @@||docs.rucml.ru/e.gif?$~third-party
 @@||docs.w3cub.com^$generichide
+@@||docs.woopt.com/wgact/$image,~3p,xhr
 @@||doda.jp/brand/ad/img/icon_play.png
 @@||dodo.ac/np/images/$image,domain=nookipedia.com
 @@||dogus-ads-cdn.dygdigital.com/daion/daion-videojs-hlsjs-*.min.js
@@ -2665,6 +2665,7 @@
 @@||ez3c.tw^$generichide
 @@||ezodn.com/cmp/gvl.json$xmlhttprequest
 @@||ezodn.com/tardisrocinante/lazy_load.js$script,domain=origami-resource-center.com
+@@||ezoic.net/detroitchicago/cmb.js$script,domain=gerweck.net
 @@||ezoic.net/tardisrocinante/screx.js$domain=doncorgi.com
 @@||ezsoftwarestorage.com^$image,media,domain=ezfunnels.com
 @@||f*.baidu.com/it/u=*,*&fm=$domain=baidu.com
@@ -5672,6 +5673,7 @@
 @@||pastemod.com^$generichide
 @@||patreonusercontent.com/*.gif?token-$image,domain=patreon.com
 @@||patrick-wied.at/static/heatmapjs/src/heatmap.js
+@@||paula2.com/WS2/dnfiles/Banners/
 @@||pay.citylink.pro/stats/services/$~third-party
 @@||payapp.weixin.qq.com^
 @@||payload.cargocollective.com^$image,~3p
@@ -5817,7 +5819,6 @@
 @@||pngimg.com/distr/$image,~3p
 @@||pngtosvg.com/wp-content/plugins/ad-inserter^
 @@||pntrac.com/b/$image,domain=extrarebates.com
-@@||pntrs.com/b/$image,domain=extrarebates.com
 @@||po.funshion.com^
 @@||pobeda.aero/*/check-in/$document
 @@||poedb.tw/js/adsbygoogle.js
@@ -7391,6 +7392,7 @@
 @@||uverseonline.att.net/report/click_tracking_nes.json
 @@||uwants.com/include/*/swfaddress.js
 @@||uwufufu.com/_nuxt/mixpanel.$~third-party
+@@||uze-ads.com/ads/$~3p
 @@||v*.douyinvod.com^
 @@||v*.kwaicdn.com^
 @@||v.fwmrm.net/ad/g/*$domain=nhl.com|dtmts.com
@@ -7550,6 +7552,7 @@
 @@||webcenter.tiscali.it/distribuzione/_script/audience_science.js$domain=mail.tiscali.it
 @@||webex.com^$generichide
 @@||webfail.com/image
+@@||webgains.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||weblet.square-enix.com/banner.php^
 @@||webmail.smartlinkcorp.com/dotrans_20160909.php
 @@||webminepool.com/lib/base.js$domain=autofaucet.org
