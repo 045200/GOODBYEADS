@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-04-22 20:56:45（北京时间）
+! Version: 2026-04-23 09:23:42（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7838
+! Total count: 7848
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@&ad_type=$domain=ultimate-guitar.com
@@ -461,6 +461,7 @@
 @@||ad-delivery.net/px.gif?$domain=explorecams.com
 @@||ad-ipd.sxp.smartclip.net/select$domain=tele5.de
 @@||ad-ipd.sxp.smartclip.net/select^$domain=n-tv.de
+@@||ad-log-upload.mihoyo.com^
 @@||ad-maven.com^$domain=ad-maven.com
 @@||ad.10010.com^$document
 @@||ad.12306.cn^$document
@@ -1796,7 +1797,6 @@
 @@||cdn.wazimo.com/media/images/$domain=showsnob.com
 @@||cdn.webclicks24.com^$document
 @@||cdn.wgchrrammzv.com/prod/ajc/loader.min.js$domain=journal-news.com
-@@||cdn.ynuf.aliapp.org^
 @@||cdn1-smallimg.phncdn.com^$document
 @@||cdn1d-static-shared.phncdn.com^$document
 @@||cdn4.tennistemple.com/js/advert.js|$script,~third-party
@@ -2447,6 +2447,7 @@
 @@||douyucdn.cn^*-share-master/
 @@||dove-cameron.org^$generichide
 @@||down.cc/down/js/ad.js
+@@||download.adguard.com^
 @@||download.amd.com/js/analytics/analyticscore.js
 @@||download.inventivetalent.org/external/adfly/make.php
 @@||download.megaup.net/*.js$~3p
@@ -2784,6 +2785,7 @@
 @@||fotbolltransfers.com^$generichide
 @@||fotoblogia.pl^$generichide
 @@||fotor.com.cn/static/web/share/js/
+@@||foundation.youdao.com^
 @@||fp-it.fengkongcloud.com^
 @@||fp-upload.dun.163.com^$document
 @@||fplay.online/log_event$~third-party,xmlhttprequest
@@ -4868,6 +4870,7 @@
 @@||m.olx.pl/api/v*/ads/*?adId=
 @@||m.timesofindia.com/*ads*.cms
 @@||m.timesofindia.com/ad-*.cms
+@@||m.toutiao.com^
 @@||m.wcostream.com/inc/embed/ads.js
 @@||m1tm.insideevs.com/gtm.js$~third-party
 @@||m7ee.adj.st/asset^$domain=google.*
@@ -5490,6 +5493,7 @@
 @@||p3-insurance.byteimg.com^
 @@||p3-notice.byteimg.com^
 @@||p3-scmimg.bytescm.com^
+@@||p3-search.byteimg.com^
 @@||p3-tt.byteimg.com/obj/$domain=agedm.io
 @@||p3-tt.byteimg.com^$document
 @@||p6-dcd-sign.byteimg.com^
@@ -5708,6 +5712,7 @@
 @@||pi.ai/ingest/$domain=pi.ai
 @@||piaotia.com/scripts/readindex/tongji.js
 @@||pic.imgdb.cn
+@@||pic2.zhimg.com^
 @@||piccool.com/2home/phpAdsNew/
 @@||picmix.com/js/fuckadblock.js
 @@||pics.porndroids.com^
@@ -5802,10 +5807,12 @@
 @@||plugin.intuitcdn.net/vep-collab-smlk-ui/assets/vendor/glance/cobrowse/
 @@||plugins.matomo.org^$image,~third-party
 @@||plus.google.com/hangouts/_/CONVERSATION/$document
+@@||pm.funshion.com^
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
 @@||pngimg.com/distr/$image,~3p
 @@||pngtosvg.com/wp-content/plugins/ad-inserter^
 @@||pntrac.com/b/$image,domain=extrarebates.com
+@@||po.funshion.com^
 @@||pobeda.aero/*/check-in/$document
 @@||poedb.tw/js/adsbygoogle.js
 @@||poedb.tw^$generichide
@@ -7138,6 +7145,7 @@
 @@||tms.oracle.com/main/prod/utag.sync.js$~third-party
 @@||tms.post.ch/*gtm.js|
 @@||tn.voyeurhit.com^$domain=voyeurhit.tube
+@@||tnc3-bjlgy.zijieapi.com^
 @@||tns-counter.ru/tcounter.js$domain=forbes.ru
 @@||tntdrama.com/modules/custom/ten_libraries/reusedFrom*/adHelper.js$~3p
 @@||tntdrama.com/modules/custom/ten_video/js/analytics_v2.js$~third-party
@@ -7199,6 +7207,8 @@
 @@||track.webgains.com/click.html?$popup,domain=pepper.*
 @@||track2.royalmail.com^
 @@||trackcmp.net^|
+@@||trackdesk.com/api/node/settings/$domain=dashboard.naughtyaffiliates.com
+@@||trackdesk.com/sign-in$domain=dashboard.naughtyaffiliates.com
 @@||tracker.ai.xiaomi.com^
 @@||tracker.ai.xiaomi.com^$document
 @@||tracker.mattel.com/tracker.aspx?site=$script
