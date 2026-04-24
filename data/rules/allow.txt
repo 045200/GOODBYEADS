@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-04-23 20:56:14（北京时间）
+! Version: 2026-04-24 09:22:56（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7856
+! Total count: 7855
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@&ad_type=$domain=ultimate-guitar.com
@@ -1311,6 +1311,7 @@
 @@||blackcircles.ca^$script,~third-party
 @@||blackmod.net^$generichide
 @@||blob.core.windows.net/bge/src/js/google-analytics.js$domain=secure2.bge.com
+@@||blob.core.windows.net/comed/src/js/google-analytics.js$domain=comed.com
 @@||blockadblock.com^$generichide
 @@||blocket.se/annonser^
 @@||blocket.se^*/xtcore.js
@@ -2167,7 +2168,6 @@
 @@||cowcotland.com/scripjs.php
 @@||cowcotland.com/scripjs.php$document
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
-@@||cp2-cdn-play.funshion.com^
 @@||cpmlink.net^$generichide
 @@||cpro.baidu.com^$script,domain=rjno1.com
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
@@ -3030,6 +3030,7 @@
 @@||go.redirectingat.com/*&url=$domain=forums.redflagdeals.com
 @@||go.redirectingat.com^$document
 @@||go.xliirdr.com/?*targetDomain=fikfapcams.com$domain=fikfap.com
+@@||go.xlirdr.com/api/models/vast$xhr
 @@||go2stream.net/stream/live/track/view/Tracking.php$domain=go2stream.net
 @@||gocomics.com/assets/ad-dependencies-$script,~3p
 @@||godlikeproductions.com/adblock/js/checks/fingerprint.js$domain=godlikeproductions.com
@@ -5493,7 +5494,6 @@
 @@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|getty.edu|petsafe.com|robertsspaceindustries.com
 @@||p1-dcd.byteimg.com^
 @@||p11.techlab-cdn.com^$domain=wizzair.com
-@@||p3-cpay.byteimg.com^
 @@||p3-dcd-sign.byteimg.com^
 @@||p3-dcd.byteimg.com^
 @@||p3-flow-imagex-sign.byteimg.com^
@@ -6956,6 +6956,7 @@
 @@||tag.aticdn.net/piano-analytics.js$domain=cerbahealthcare.it
 @@||tag.aticdn.net/piano-analytics.js$domain=choisirleservicepublic.gouv.fr
 @@||tag.aticdn.net/piano-analytics.js$domain=futura-sciences.com
+@@||tag.aticdn.net/piano-analytics.js$domain=rte.ie
 @@||tag.aticdn.net/piano-analytics.js$domain=taughtie.campusfrance.org
 @@||tag.aticdn.net/piano-analytics.js$domain=yourstory.com
 @@||tag.aticdn.net/piano-analytics.js$script,domain=boerzoektvrouw.kro-ncrv.nl
@@ -7553,7 +7554,6 @@
 @@||web.snrbox.com/*?tracker=$domain=carrefourpl.snrpage.com
 @@||web.snrbox.com/rtom-proxy/rtom/configs/getPublicConfigForContext$domain=komputronik.pl
 @@||web.snrbox.com/tck/$xmlhttprequest,redirect=nooptext,domain=komputronik.pl
-@@||web.telegram.org^$generichide
 @@||webbtelescope.org/files/live/sites/webb/$image,~3p
 @@||webcache.googleusercontent.com^$generichide
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
@@ -7704,7 +7704,6 @@
 @@||wx.qq.com/c/=/mpres/*/video_ad_
 @@||wx.qq.com/mmbizwap/*/framead.
 @@||wx2.sinaimg.cn^$document
-@@||wxsnsdy.wxs.qq.com^
 @@||wykop.pl/api/v3/ads/redirect?data=$xhr,domain=wykop.pl
 @@||wykop.pl/api/v3/tags/reklama/$xhr,~3p
 @@||wzrkt.com/e?$domain=lottiefiles.com
