@@ -2,7 +2,7 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-04-24 20:54:58（北京时间）
+! Version: 2026-04-25 09:16:20（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 7868
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -545,7 +545,6 @@
 @@||adm.fwmrm.net^$domain=revision3.com
 @@||adm.fwmrm.net^*/videoadrenderer.$object,domain=cnbc.com|go.com|nbc.com|nbcnews.com
 @@||admin.corrata.com/console/dcconsolews/event-log?$~third-party
-@@||admin.mailchimp.com^
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
 @@||adnet.qq.com^$document
 @@||adnet.qq.com^$~3p
@@ -746,6 +745,7 @@
 @@||akoam.ws^$generichide
 @@||aktuality.sk^$generichide
 @@||al-aqsanews.com
+@@||ali-gamezone.static.yximgs.com^
 @@||ali-ky.static.yximgs.com^
 @@||ali.static.yximgs.com^
 @@||alicdn.com/??*/tracker/
@@ -1160,7 +1160,6 @@
 @@||autotrader.co.uk^*/advert$~3p
 @@||av30.xyz/cs/2.js
 @@||av4u.info/source/plugin/unadblock^
-@@||avatar.coolapk.com^
 @@||avclub.com^*/adManager.$script,~3p
 @@||avgle.com/embed/$genericblock,generichide
 @@||avpgalaxy.net/gpt.js
@@ -1996,7 +1995,6 @@
 @@||cloud.roistat.com/dist/module.*$script,stylesheet,domain=britvabarber.ru
 @@||cloud.roistat.com/dist/module.js$domain=motostudy.ru
 @@||cloud.roistat.com/dist/module.js$domain=pandashop.md
-@@||cloudcontrol.live.360.cn^
 @@||clouderrorreporting.googleapis.com^$domain=waze.com
 @@||cloudfam.io^$generichide
 @@||cloudflare.com/*/fingerprint2.min.js$domain=saavn.com
@@ -2457,6 +2455,7 @@
 @@||douyucdn.cn^*-share-master/
 @@||dove-cameron.org^$generichide
 @@||down.cc/down/js/ad.js
+@@||download.adguard.com^
 @@||download.amd.com/js/analytics/analyticscore.js
 @@||download.inventivetalent.org/external/adfly/make.php
 @@||download.megaup.net/*.js$~3p
@@ -2477,7 +2476,6 @@
 @@||dream-sound.com^$generichide
 @@||drfone.wondershare.com/ad/ios12-update/$~3p
 @@||drive.google.com^$generichide
-@@||drive.quark.cn^
 @@||drivemoe.com/-ads-banner.js
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
 @@||dropapk.com^$generichide
@@ -2798,7 +2796,6 @@
 @@||fotbolltransfers.com^$generichide
 @@||fotoblogia.pl^$generichide
 @@||fotor.com.cn/static/web/share/js/
-@@||foundation.youdao.com^
 @@||fp-it.fengkongcloud.com^
 @@||fp-upload.dun.163.com^$document
 @@||fplay.online/log_event$~third-party,xmlhttprequest
@@ -3038,7 +3035,6 @@
 @@||go.redirectingat.com/*&url=$domain=forums.redflagdeals.com
 @@||go.redirectingat.com^$document
 @@||go.xliirdr.com/?*targetDomain=fikfapcams.com$domain=fikfap.com
-@@||go.xlirdr.com/api/models/vast$xhr
 @@||go2stream.net/stream/live/track/view/Tracking.php$domain=go2stream.net
 @@||gocomics.com/assets/ad-dependencies-$script,~3p
 @@||godlikeproductions.com/adblock/js/checks/fingerprint.js$domain=godlikeproductions.com
@@ -4746,6 +4742,7 @@
 @@||lf*-webcastcdn-tos.douyinstatic.com^
 @@||lf*material.searchpstatp.com^
 @@||lf-c-flwb.bytetos.com^
+@@||lf-cdn-tos.bytescm.com^
 @@||lf-webcast-gr-sourcecdn.bytegecko.com^
 @@||lf-webcast-sourcecdn-tos.bytegecko.com^
 @@||lf1-cdn-tos.bytegoofy.com^
@@ -5516,6 +5513,7 @@
 @@||p6-dy-ipv6.byteimg.com^
 @@||p9-dcd-sign.byteimg.com^
 @@||p9-dcd.byteimg.com^
+@@||p9-dy.byteimg.com
 @@||p9-flow-imagex-sign.byteimg.com^
 @@||pacaio.match.qq.com^$document
 @@||pagead2.googlesyndication.com/gampad/ads?*laurelberninteriors.com*&iu=%2F18190176%2C22509719621%2FAdThrive_Video_Collapse_Autoplay_$domain=imasdk.googleapis.com
@@ -5730,6 +5728,7 @@
 @@||piaotia.com/scripts/readindex/tongji.js
 @@||pic.imgdb.cn
 @@||pic2.zhimg.com^
+@@||piccool.com/2home/phpAdsNew/
 @@||picmix.com/js/fuckadblock.js
 @@||pics.porndroids.com^
 @@||picsearch.com/js/comscore.js$domain=dn.se
@@ -5836,7 +5835,6 @@
 @@||point.rakuten.co.jp/img/crossuse/top_ad/$~3p
 @@||pokemonblackwhite.com^*/jquery.google-analytics.js
 @@||polarbyte.com^$domain=cambridgeenglish.org
-@@||polaris.zijieapi.com^
 @@||polfan.pl/app/vendor/fingerprint2.min.js
 @@||polfan.pl/app/vendor/fingerprint2.min.js$~third-party
 @@||politiken.dk/static/$script
@@ -6006,6 +6004,7 @@
 @@||qq.com/server/website/CommWebGameSelect_ad.js
 @@||qq.com/web201602/js/ad.js
 @@||qq.com^*?ADTAG=
+@@||qspfw.com/r/cms/www/qspfw/common/img/ad_
 @@||qualtrics.com/jfe/form/$subdocument
 @@||quantcast$domain=soundcloud.com
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
@@ -6247,7 +6246,6 @@
 @@||sc.omtrdc.net^$domain=cibc.com
 @@||sc.youmaker.com/site/article/count?
 @@||sc2casts.com^$generichide
-@@||scan.call.f.360.cn^
 @@||scdn.cxense.com/cx.cce.js$domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de
 @@||scdn.cxense.com/cx.cce.js$domain=cdn.cxpublic.com
 @@||scdn.cxense.com/cx.cce.js$domain=itmedia.co.jp
@@ -6558,7 +6556,6 @@
 @@||slit.cn/source/plugin/unadblock/*.js
 @@||sltrib.com/pb/resources/scripts/utils/ads/ads.js
 @@||smallseotools.com^$generichide,badfilter
-@@||smart.360.cn^
 @@||smartadserver.com/ac?$domain=bildderfrau.de
 @@||smartadserver.com/call/pubx/*/M/$domain=vbox7.com
 @@||smartadserver.com/genericpost$domain=filmweb.pl
@@ -7227,7 +7224,8 @@
 @@||track.webgains.com/click.html?$popup,domain=pepper.*
 @@||track2.royalmail.com^
 @@||trackcmp.net^|
-@@||trackdesk.com/api/node/settings/$domain=dashboard.naughtyaffiliates.com
+@@||trackdesk.com/api/node$domain=dashboard.naughtyaffiliates.com
+@@||trackdesk.com/api/reports$domain=dashboard.naughtyaffiliates.com
 @@||trackdesk.com/sign-in$domain=dashboard.naughtyaffiliates.com
 @@||tracker.ai.xiaomi.com^
 @@||tracker.ai.xiaomi.com^$document
@@ -7297,6 +7295,7 @@
 @@||ttmetrics.faz.net/rest/v1/delivery?$domain=faz.net
 @@||ttorial.com^$generichide
 @@||ttsmp3.com^$generichide
+@@||ttwid.bytedance.com^
 @@||tubeoffline.com/js/hot.min.js
 @@||tubitv.com^$generichide
 @@||tui.click/js/ads.js
@@ -7445,6 +7444,7 @@
 @@||vatanbilgisayar.com/upload/banner/
 @@||vattastic.com/js/fp2/fingerprint2.min.js
 @@||vcs.snssdk.com^$document
+@@||vcs.zijieapi.com^
 @@||vd.l.qq.com^$document
 @@||veev.to^$generichide
 @@||venipa.net^$generichide
