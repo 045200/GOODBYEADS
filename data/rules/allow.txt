@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-05-06 09:29:09（北京时间）
+! Version: 2026-05-06 21:25:14（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7918
+! Total count: 7920
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@&ad_type=$domain=ultimate-guitar.com
@@ -427,7 +427,6 @@
 @@||ab.blogs.es/abtest.png$image,domain=xataka.com|trendencias.com
 @@||ab.blogs.es/abtest.png?editorialRecommendations$domain=applesfera.com
 @@||abchina.com^*ad
-@@||abcnews.com/assets/js/prebid.min.js$~3p
 @@||abczdrowie.pl^$generichide
 @@||aboluowang.com^$generichide
 @@||about-australia.com/*/clickheat.js
@@ -861,11 +860,9 @@
 @@||anime-i.com^$generichide
 @@||anime-loads.org^$generichide
 @@||anime1.me/ads.js
-@@||anime47.com/*/js/your-ad.txt
 @@||animecorner.me/*/screx.js
 @@||animedigitalnetwork.fr/templates/*/js/advertising.min.js?$script,~third-party
 @@||animeflv.com/efire.php^
-@@||animeflv.ru/assets/vast/videojs.ads.min.js
 @@||animesrbija.com^$generichide
 @@||animeunity.it/stream.php$generichide
 @@||anisearch.*^$generichide
@@ -1706,6 +1703,7 @@
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
 @@||cdn.permutive.app/*-web.js$domain=theglobeandmail.com
 @@||cdn.permutive.com/*-web.js$domain=independent.co.uk
+@@||cdn.petametrics.com/*-nbc.js$script,domain=bringmethenews.com
 @@||cdn.petametrics.com^$script,domain=mechacomic.jp
 @@||cdn.plyr.io/*/plyr.svg$domain=akwam.*
 @@||cdn.polarbyte.com^$domain=bab.la
@@ -2330,7 +2328,6 @@
 @@||daziba.cn/Images/share.css
 @@||dbz-fantasy.com/ads.css
 @@||dcbbwymp1bhlf.cloudfront.net^$script,domain=uploadmall.com
-@@||dcdirtylaundry.com/cdn-cgi/challenge-platform/$~3p
 @@||dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js$domain=abcnews.go.com
 @@||dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js$domain=disney.*
 @@||dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js$domain=fivethirtyeight.com
@@ -2346,7 +2343,6 @@
 @@||deals.nextag.com^*/ClickTracker.jsp
 @@||debenhams.com/foresee/foresee-trigger.js
 @@||decrypt.day^$generichide
-@@||deepbrid.com/backend-dl/app/views/site/default/ads/*.js$domain=deepbrid.com
 @@||deezer.com^$generichide
 @@||delivery-cdn-cf.adswizz.com/adswizz/js/SynchroClient*.js$script,domain=tunein.com
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
@@ -2807,7 +2803,6 @@
 @@||forrest.adverticum.net/inapp/user^$domain=embed.indavideo.hu
 @@||forum.admiregirls.com/js/*/ad160.js
 @@||forum.djicdn.com/static/js/sensorsdata.min.js$script,domain=forum.dji.com
-@@||forum.miuiturkiye.net/konu/reklam.$~3p,xhr
 @@||forum.notebookreview.com/threads^
 @@||forum.release-apk.com/*#/*/ad/$image
 @@||forum.release-apk.com^$generichide
@@ -2871,6 +2866,7 @@
 @@||fxporn69.com^$generichide
 @@||g.alicdn.com/??*/criteo
 @@||g.alicdn.com/AWSC/et/$domain=ele.me
+@@||g.alicdn.com/alilog/mlog/aplus_o.js$domain=v.youku.com
 @@||g.alicdn.com^*/banner_ad_
 @@||g.doubleclick.net/gampad/ads$xhr,domain=bloomberg.com|chromatographyonline.com|formularywatch.com|journaldequebec.com|managedhealthcareexecutive.com|medicaleconomics.com|physicianspractice.com|samsclub.com
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
@@ -4041,6 +4037,7 @@
 @@||hellporno.net/_a_ht/s/s/su.php?
 @@||hepfinans.com/wp-content/uploads/*/Google-Adsense-$image,~third-party
 @@||heute.de/zdf/flash/eplayer/player.swf?*/cgi-bin/ivw/
+@@||hgtv.ca^$generichide
 @@||hh010.com^$generichide
 @@||hhgregg.com/wcsstore/MadisonsStorefrontAssetStore/javascript/Analytics/AnalyticsTagDataObject.js
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
@@ -4860,6 +4857,7 @@
 @@||log-api.pangolin-sdk-toutiao-b.com^
 @@||log-api.pangolin-sdk-toutiao.com^
 @@||log.go.com/log$xmlhttprequest,domain=disneyvacationclub.disney.go.com
+@@||log.mmstat.com/eg.js$domain=v.youku.com
 @@||log.mmstat.com/eg.js$domain=youku.tv
 @@||log.mmstat.com/eg.js^$script
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
@@ -4969,7 +4967,6 @@
 @@||marketplace.xbox.com^$document
 @@||martech.condenastdigital.com/lib/martech.js$domain=wired.com
 @@||martech.condenastdigital.com/lib/martech.js$script,domain=wired.com
-@@||martinfowler.com/articles/asyncJS.css$stylesheet,~3p
 @@||masterkong.com.cn/adimages/
 @@||material.angular.io^$generichide
 @@||material.io^$generichide
@@ -5541,6 +5538,7 @@
 @@||p3-tt.byteimg.com^$document
 @@||p6-dcd-sign.byteimg.com^
 @@||p6-dy-ipv6.byteimg.com^
+@@||p9-dcd-sign.byteimg.com^
 @@||p9-dcd.byteimg.com^
 @@||p9-dy.byteimg.com
 @@||p9-flow-imagex-sign.byteimg.com^
@@ -5826,6 +5824,7 @@
 @@||player.avplayer.com/script/*/avcplayer.js$domain=sportbible.com
 @@||player.avplayer.com/script/*/libs/hls.min.js$domain=sportbible.com
 @@||player.avplayer.com/script/2/v/avcplayer.js$domain=adnkronos.com
+@@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com|tiz-cycling-live.io
 @@||player.clevercast.com/players/video-js/video-js-plugins/videojs.ads.min.js
 @@||player.enetres.net/js/videojs-plugins/videojs-ads-contrib/videojs.ads.js
 @@||player.ex.co/config$domain=pagesix.com
@@ -6396,6 +6395,7 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=gotrip.hk
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=news.tvb.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=sinarharian.com.my
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=softonic.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=ukr.net
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=weheartit.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=wunderground.com
@@ -6415,6 +6415,7 @@
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=crazygames.com|shellshock.io|minijuegos.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=digitaltrends.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=drugs.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=epaper.timesgroup.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=factable.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=freundin.de
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=gallito.com.uy
@@ -7459,6 +7460,7 @@
 @@||uze-ads.com/ads/$~3p
 @@||v*.douyinvod.com^
 @@||v*.kwaicdn.com^
+@@||v.fwmrm.net/?$xhr
 @@||v.fwmrm.net/ad/g/*$domain=nhl.com|dtmts.com
 @@||v.fwmrm.net/ad/g/*Nelonen$script
 @@||v.fwmrm.net/ad/g/1$domain=tv4play.se
