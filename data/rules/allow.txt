@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-05-09 09:46:13（北京时间）
+! Version: 2026-05-09 20:48:54（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7918
+! Total count: 7913
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@&ad_type=$domain=ultimate-guitar.com
@@ -612,7 +612,6 @@
 @@||ads.cricbuzz.com/adserver/units/mobile/set_ads_values.php
 @@||ads.cup.com.cn^$document
 @@||ads.dainikbhaskar.com/AdTech/ads/ads.js
-@@||ads.doordash.com^$popup
 @@||ads.dygdigital.com/services/pauseroll?site=$domain=startv.com.tr|ntv.com.tr|puhutv.com|tlctv.com.tr|discoverychannel.com.tr|dmax.com.tr
 @@||ads.elevateplatform.co.uk^$popup
 @@||ads.exoclick.com/ads.js$domain=sss.xxx|hdzog.com|hclips.com
@@ -2131,6 +2130,7 @@
 @@||connatix.com^$domain=euronews.com
 @@||connatix.com^$domain=sport-fm.gr|sport24.gr|variety.com
 @@||connatix.com^$domain=sun-sentinel.com
+@@||connect.facebook.*/en_US/AudienceNetworkPrebid.js$domain=cbssports.com
 @@||connect.facebook.net/*/fbevents.js$domain=smartstore.naver.com
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||console.bce.baidu.com^$domain=console.bce.baidu.com
@@ -2180,7 +2180,6 @@
 @@||count.video.sina.com.cn^*?video_ids=
 @@||countrygarden.com.cn/ad/
 @@||cowcotland.com/scripjs.php
-@@||cowcotland.com/scripjs.php$document
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
 @@||cp2-cdn-play.funshion.com^
 @@||cpmlink.net^$generichide
@@ -2353,7 +2352,6 @@
 @@||des.smartclip.net/ads?type=$domain=spiele.rtl.de
 @@||descopera.ro/js/addLinkerEvents-ga.js
 @@||desirecourse.com^$generichide
-@@||desirecourse.net/wp-content/*/themes/jannah/assets/js/advertisement-*.js
 @@||desirecourse.net^$generichide
 @@||destinationamerica.com^$generichide
 @@||destyy.com^$generichide
@@ -3058,7 +3056,6 @@
 @@||go.redirectingat.com^$document
 @@||go.trvdp.com/init/$domain=olhardigital.com.br
 @@||go.xliirdr.com/?*targetDomain=fikfapcams.com$domain=fikfap.com
-@@||go.xlirdr.com/api/models/vast$xhr
 @@||go2stream.net/stream/live/track/view/Tracking.php$domain=go2stream.net
 @@||gocomics.com/assets/ad-dependencies-$script,~3p
 @@||godlikeproductions.com/adblock/js/checks/fingerprint.js$domain=godlikeproductions.com
@@ -3947,7 +3944,6 @@
 @@||gstatic.com/_/mss/boq-ads-privacy-consumer-frontend$domain=googleads.g.doubleclick.net
 @@||gstatic.com/admanager/outstream/rewarded_web_video_$script,domain=safeframe.googlesyndication.com
 @@||gstatic.com/ads/external/images/$image,domain=support.google.com
-@@||gstatic.com/ads/external/images/logo_google_ads_*px.png$domain=support.google.com
 @@||gstatic.com/cast/sdk/libs/sender/*/cast_framework.js$domain=pornhub.com|pornhub.org|pornhub.net
 @@||gstatic.com/cv/js/sender/*/cast_sender.js$domain=pornhub.com|pornhub.org|pornhub.net
 @@||gstatic.com/images/branding/product/*x/translate_24dp.png$image,domain=translate.googleapis.com
@@ -4111,6 +4107,7 @@
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||hutchgo.advertserve.com^$popup,domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||hvemder.no/js/hitcount.min.js$~third-party
+@@||hwcdn.net^$script,domain=mp4upload.com
 @@||hyperdebrid.net^$generichide
 @@||hyperos.developer.xiaomi.com^$document
 @@||i*.gmx.com/image
@@ -4188,7 +4185,6 @@
 @@||images-dl.taboola.com^$domain=samsung.com|thestartmagazine.com|taboolanews.com
 @@||images-eu.ssl-images-amazon.com/images/$domain=amazon.com.tr
 @@||images.apple.com/metrics/scripts/s_code_h.js$domain=apple.com
-@@||images.audycje.tokfm.pl/prodstatic/js/advertisement.js
 @@||images.bestbuy.com^$domain=bestbuy.com
 @@||images.gmanetwork.com/res/dist/js/adsTracking.gz.js
 @@||images.macrumors.com/*/article-new/
@@ -4732,7 +4728,6 @@
 @@||laprovence.com/sites/all/modules/GHM/xiti_oas/js/xtcore.js
 @@||larvf.com/js/ads.js
 @@||lasicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
-@@||lastpass.com/ads.php$subdocument,domain=chrome-extension-scheme
 @@||lastpass.com/images/ads/$image,~3p
 @@||latimes.com/hive/javascripts/loggingService.js
 @@||latin.it/banner.php
@@ -5645,7 +5640,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=duelmeta.com|linetv.tw|liout.com|moneysave.info|raenonx.cc|zxmee.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=falpus.com|fooak.com|upfiles-urls.com|upfiles.app|upfion.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=fastssh.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=smallseotools.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=iconmonstr.com,xhr
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=noor-book.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
@@ -6399,6 +6393,7 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=ukr.net
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=weheartit.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=wunderground.com
+@@||securepubads.g.doubleclick.net/pagead/managed/$script,domain=metacritic.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=abccar.com.tw
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=drugs.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=kitco.com
@@ -6482,7 +6477,6 @@
 @@||service.maxymiser.net/cg/v5us/$domain=puritan.com
 @@||service.maxymiser.net/platform/eu/api/mmpackage-*.js$domain=mediamarkt.com.tr
 @@||services.bilsyndication.com^$domain=atozmath.com,~media
-@@||services.brid.tv/player/build/plugins/adunit.js
 @@||services.chipotle.com/__imp_apg__/$~third-party
 @@||services.vlitag.com/adv1/$script,domain=orbispatches.com
 @@||serving-sys.com/serving/adServer.bs?$popup,domain=hongkongcard.com
@@ -6997,6 +6991,7 @@
 @@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|entrepreneur.com|foxsports.com
 @@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|foxsports.com
 @@||taboola.com/magazine/$domain=taboolanews.com
+@@||taboolanews.com/feed/summary?publisherId=Taboola_samsung-carnival-us&key=Taboola&viewID=$generichide
 @@||taboolanews.com/summary-page/*_samsung-carnival-$generichide
 @@||tag.aticdn.net/*/at.js$domain=tv5monde.com
 @@||tag.aticdn.net/*/smarttag.js$domain=compteczam.fr
