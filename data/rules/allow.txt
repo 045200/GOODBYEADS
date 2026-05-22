@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-05-22 10:02:29（北京时间）
+! Version: 2026-05-22 22:10:47（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7849
+! Total count: 7846
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@&ad_type=$domain=ultimate-guitar.com
@@ -336,6 +336,7 @@
 @@||40017.cn/cn/min/???/
 @@||423down.com^$generichide
 @@||4399sj.com^*/adview_pic_
+@@||47news.jp/static/special/*/300x250_640x480.webp$~3p
 @@||4cdn.org/js/catalog.min.*.js$domain=4chan.org
 @@||4cdn.org/js/core.min.*.js$domain=4chan.org
 @@||4cdn.org/js/extension.min.*.js$domain=4chan.org
@@ -1023,6 +1024,7 @@
 @@||app.axenthost.com^$generichide
 @@||app.chat.xiaomi.net^$document
 @@||app.clarity.so^$~third-party
+@@||app.clickfunnels.com/assets/lander.js$script,domain=painprophet.com|propanefitness.com
 @@||app.home.360.cn^
 @@||app.hubspot.com/api/ads/$~3p
 @@||app.hype.it/assets/packages/mixpanel_flutter/assets/mixpanel.js$~third-party
@@ -1158,7 +1160,6 @@
 @@||awsstatic.com/*/orchestrate.js$domain=aws.amazon.com
 @@||awsstatic.com/libra/*/vendor/web-vitals.attribution.iife.js$domain=aws.amazon.com
 @@||az.hp.transer.com/content/dam/isetan_mitsukoshi/advertise/$~3p
-@@||az.hpcn.transer-cn.com/content/dam/isetan_mitsukoshi/advertise/$~3p
 @@||az416426.vo.msecnd.net/next/ai.2.min.js$domain=ams.cdn.arkadiumhosted.com
 @@||azdictionary.com^$generichide
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
@@ -2182,7 +2183,6 @@
 @@||cqcounter.com^$domain=cqcounter.com
 @@||cqshuda.com/template/conch/asset/js/conch.vip.js
 @@||cr.acecounter.com/Web/AceCounter_AW.js$domain=berryjam.co.kr
-@@||crackedgameservers.com/uploads/set_resources*adframe.js
 @@||crackedresource.com^$generichide
 @@||crackle.com/vendor/adex.js
 @@||crazygames.com/prebid.js$script,~3p
@@ -2427,6 +2427,7 @@
 @@||dodo.ac/np/images/$image,domain=nookipedia.com
 @@||dogus-ads-cdn.dygdigital.com/daion/daion-videojs-hlsjs-*.min.js
 @@||dogus-ads-cdn.dygdigital.com/live-broadcast-player/v1/bundle.js$domain=startv.com.tr
+@@||doncorgi.com/ezoic/anchorfix.js
 @@||dood.watch^$subdocument
 @@||doods.to^$generichide
 @@||doortodoor.co.kr/jsp/cmn/Tracking.jsp^
@@ -2673,6 +2674,7 @@
 @@||ezodn.com/tardisrocinante/lazy_load.js$script,domain=origami-resource-center.com
 @@||ezoic.net/detroitchicago/cmb.js$script,domain=gerweck.net
 @@||ezoic.net/tardisrocinante/screx.js$domain=doncorgi.com
+@@||eztv.io/js/search_shows*.js
 @@||eztv.io^$csp=script-src 'self' 'unsafe-inline'
 @@||f*.baidu.com/it/u=*,*&fm=$domain=baidu.com
 @@||f-cashloan.snssdk.com^
@@ -2858,12 +2860,10 @@
 @@||g.doubleclick.net/gampad/ads?$xhr,domain=soranews24.com
 @@||g.doubleclick.net/gampad/ads?*%2Ftver.$xhr,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*&iu=%2F18190176%2C22509719621%2FAdThrive_Video_Collapse_Autoplay_$xhr,domain=imasdk.googleapis.com
-@@||g.doubleclick.net/gampad/ads?*&iu=%2F18190176%2C22509719621%2FAdThrive_Video_In-Post_ClicktoPlay_$domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*&prev_scp=kw%3Diqdspiegel%2Cdigtransform%2Ciqadtile4%2$xhr,domain=spiegel.de
 @@||g.doubleclick.net/gampad/ads?*&url=https%3A%2F%2Fgames.poki.com$xhr,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*&url=https%3A%2F%2Frepuls.io$xhr,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*.crunchyroll.com$xhr,domain=imasdk.googleapis.com
-@@||g.doubleclick.net/gampad/ads?*RakutenShowtime$xhr,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?env=$xhr,domain=wunderground.com
 @@||g.doubleclick.net/gampad/adx?$xhr,domain=v.ifeng.com
 @@||g.doubleclick.net/gampad/adx?*/sparta/*&t=ad_type%3Dtoolbar%26$document,subdocument,domain=wetter.com,badfilter
@@ -4049,7 +4049,6 @@
 @@||hm.baidu.com/h.js?$domain=weaku.com
 @@||hm.baidu.com/hm.js$domain=qpp.caq.org.cn
 @@||hm.baidu.com/hm.js$domain=rjno1.com
-@@||hm732.com/adverts/ad-400.js
 @@||hmvod.com.hk/website/static/skin/images/share/
 @@||hobbyking.com^*/gtm.js$script,~third-party
 @@||holmesmind.com/js/drawV2.$domain=bingfong.com
@@ -4463,6 +4462,7 @@
 @@||int.mwbbiz.com/static/*/app.js$domain=91porny.com
 @@||int.mwbbiz.com/static/*/videoShow.js$domain=91porny.com
 @@||integrations.fitanalytics.com/shop/modivo/pdp.js$domain=modivo.*
+@@||intelyvale.com.mx/ads/images/$domain=valesdegasolina.mx
 @@||intercom-clicks.com^$document
 @@||interia.hit.gemius.pl/hitredir/$domain=interia.pl
 @@||interia.hit.gemius.pl/redot.gif?$domain=m.interia.pl
@@ -5386,6 +5386,7 @@
 @@||omtrdc.net/*/mbox/json$domain=apps.pnc.com
 @@||omtrdc.net/b/ss/$domain=macworld.com
 @@||omtrdc.net/b/ss/$image,domain=ba.com|britishairways.com|halifax-online.co.uk
+@@||omtrdc.net/b/ss/acsca-prod/$domain=amazon.ca|amazon.co.uk|amazon.com
 @@||omtrdc.net/m2/hsbcbankhase/mbox/ajax?$domain=hangseng.com
 @@||omtrdc.net/rest/$xmlhttprequest
 @@||omtrdc.net^$domain=abbyy.ru
@@ -5854,7 +5855,6 @@
 @@||powerquality.eaton.com/include/js/elqScr.js$~third-party
 @@||powvideo.net/$~3p,popup
 @@||powvideo.net/new/css/fonts/font/custom-icons.$font
-@@||powvideo.net/player*/jw-$~3p,xhr
 @@||pp.lp4.io/app^$domain=berliner-zeitung.de
 @@||pp.myapp.com^$document
 @@||pprune.org/clientscript/vbulletin_analytics.js
@@ -5998,6 +5998,7 @@
 @@||query.petametrics.com^$image,xmlhttprequest,domain=mechacomic.jp
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=lanacion.com.ar
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=ranker.com
+@@||qwhdcdn.cmcc-cs.cn^
 @@||qzonestyle.gtimg.cn^
 @@||r.linksprf.com/*/redirect?
 @@||r10s.jp/com/img/home/t.gif?$domain=24.rakuten.co.jp
@@ -6469,7 +6470,6 @@
 @@||shopeesz.com/shopee/*/modules/ads/
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
 @@||shoptimise.fr/Content/Images/bann_
-@@||short.cliquebook.net/*js/viewad.js
 @@||short.goldenfaucet.io/*templates/css/viewad.css
 @@||shorterall.com^$cookie=_gid
 @@||shouji.360.cn^
@@ -7358,7 +7358,6 @@
 @@||upaiyun.com/libs/$script,domain=xddxsw.net
 @@||upaiyun.com^*.js$domain=cilimao.co|cilimao.one
 @@||upload.wikimedia.org/wikipedia/$image,media
-@@||uploadbox.io/js/advertisement.js
 @@||uploadcloud.pro^$generichide
 @@||uploadex.com^$elemhide
 @@||ups.com/*/WebTracking/track&dcs
@@ -7404,7 +7403,6 @@
 @@||v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_*_web_vod&*&host=https%3A%2F%2Fwww.cbsnews.com&$domain=imasdk.googleapis.com
 @@||v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_desktop_$xhr
 @@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.com|cmt.com|eonline.com|foodnetwork.com|nbcnews.com|ncaa.com|player.theplatform.com|simpsonsworld.com|today.com
-@@||v.fwmrm.net/ad/p/1?$domain=channel4.com
 @@||v.fwmrm.net/crossdomain.xml$xhr
 @@||v.me/personal/assets/ntpagetag-$script
 @@||v.miguvideo.com^
@@ -7546,7 +7544,6 @@
 @@||web.snrbox.com/*?tracker=$domain=carrefourpl.snrpage.com
 @@||web.snrbox.com/rtom-proxy/rtom/configs/getPublicConfigForContext$domain=komputronik.pl
 @@||web.snrbox.com/tck/$xmlhttprequest,redirect=nooptext,domain=komputronik.pl
-@@||web.telegram.org^$generichide
 @@||webbtelescope.org/files/live/sites/webb/$image,~3p
 @@||webcache.googleusercontent.com^$generichide
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
