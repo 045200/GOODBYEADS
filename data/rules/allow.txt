@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-06-16 10:34:25（北京时间）
+! Version: 2026-06-17 00:18:26（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7969
+! Total count: 7974
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@&ad_type=$domain=ultimate-guitar.com
 @@&http_referer=$domain=chaopx.com
@@ -893,6 +893,7 @@
 @@||animeunity.it/stream.php$generichide
 @@||anisearch.*^$generichide
 @@||anitasrecipes.com/Content/Images/Recipes/$image,~3p
+@@||aniview.com/api/$script,xhr,domain=gamingbible.co.uk|ladbible.com|stirr.com
 @@||aniview.com/api/adserver/spt?$domain=sportbible.com
 @@||ankrzkz.sbs/js/boxad.js?$script,~third-party
 @@||annhe.net^$generichide
@@ -918,6 +919,7 @@
 @@||ap6.ssl.msdk.qq.com^
 @@||ap6.ssl.msdk.qq.com^$document
 @@||aphim.co^$generichide
+@@||api-*.spot.im/v*/config/launcher/sp_*/vendor,init,conversation$domain=bizpacreview.com
 @@||api-analytics.magstimconnect.net^$~third-party
 @@||api-cn.store.heytapmobi.com^$document
 @@||api-cn.theme.heytapmobi.com^$document
@@ -1246,6 +1248,7 @@
 @@||banma.com/statics/js/??
 @@||banmancounselling.com/wp-content/themes/banman/
 @@||banner-hiroba.com/wp-content/uploads/$image,~3p
+@@||banner.customer.kyruus.com^$domain=doctors.bannerhealth.com
 @@||banner.infoey.com/adbanner.png$domain=phineypet.com
 @@||banners.s1.citilink.ru^$image,domain=citilink.ru
 @@||barax.de/cache/images/logo-*x*-
@@ -1573,6 +1576,7 @@
 @@||cdn.appdynamics.com/adrum$domain=cvs.com
 @@||cdn.avansas.com/content/img/home/banner^
 @@||cdn.bannersnack.com/banners/$~3p,image,subdocument
+@@||cdn.behavioralengine.com/scripts/btest/advertisement.js$domain=tvnturbo.pl
 @@||cdn.blueconic.net/akc.js$domain=akc.org
 @@||cdn.blueconic.net/chronicle.js$domain=chronicle.com
 @@||cdn.blueconic.net/pon.js$domain=seat.nl
@@ -3119,6 +3123,7 @@
 @@||go.redirectingat.com^$document
 @@||go.trvdp.com/init/$domain=olhardigital.com.br
 @@||go.xliirdr.com/?*targetDomain=fikfapcams.com$domain=fikfap.com
+@@||go.xlirdr.com/api/models/vast$xhr
 @@||go2stream.net/stream/live/track/view/Tracking.php$domain=go2stream.net
 @@||gocomics.com/assets/ad-dependencies-$script,~3p
 @@||godlikeproductions.com/adblock/js/checks/fingerprint.js$domain=godlikeproductions.com
@@ -4250,7 +4255,6 @@
 @@||images-eu.ssl-images-amazon.com/images/$domain=amazon.com.tr
 @@||images.apple.com/metrics/scripts/s_code_h.js$domain=apple.com
 @@||images.bestbuy.com^$domain=bestbuy.com
-@@||images.fm.tuba.pl/tuba*/_js/banner/advertisement.js
 @@||images.gmanetwork.com/res/dist/js/adsTracking.gz.js
 @@||images.macrumors.com/*/article-new/
 @@||images.taboola.com/taboola/image/fetch/$image,domain=azby.fmworld.net
@@ -4509,6 +4513,7 @@
 @@||in.treasuredata.com/js/*?api_key$script,domain=retty.me
 @@||in.treasuredata.com/js/v*/event/fluentd_website/anchor_clicks_$domain=docs.fluentd.org
 @@||inazuma.co/campaign/js/heatmap.js$domain=monopoly.mcdonalds.co.uk
+@@||inbox.lv/advert/?actionID=imp_login
 @@||indeed.com/rpc/log/myjobs/$~third-party
 @@||indeed.com/rpc/log/myjobs/transition_job_state$xmlhttprequest
 @@||independent.co.uk/_build/prebid.*.js$domain=independent.co.uk
@@ -4950,7 +4955,6 @@
 @@||looker.com/api/internal/$~3p
 @@||lookmovie.ag/*dfp.min.js
 @@||lootup.me/assets/js/ads-prebid.js
-@@||lostpod.space/static/streaming-playlists/$domain=videos.john-livingston.fr
 @@||lp.longtailvideo.com/5/yourlytics/yourlytics-1.js$domain=indiedb.com|indieroyale.com|moddb.com
 @@||lp.sophos.com/email-preferences-
 @@||lpg-forum.pl/ad-blocker.js
@@ -5770,6 +5774,7 @@
 @@||patreonusercontent.com/*.gif?token-$image,domain=patreon.com
 @@||patreonusercontent.com^$image,domain=patreon.com
 @@||patrick-wied.at/static/heatmapjs/src/heatmap.js
+@@||paula2.com/WS2/dnfiles/Banners/
 @@||pay.citylink.pro/stats/services/$~third-party
 @@||payapp.weixin.qq.com^
 @@||payload.cargocollective.com^$image,~3p
@@ -7664,7 +7669,6 @@
 @@||web.snrbox.com/*?tracker=$domain=carrefourpl.snrpage.com
 @@||web.snrbox.com/rtom-proxy/rtom/configs/getPublicConfigForContext$domain=komputronik.pl
 @@||web.snrbox.com/tck/$xmlhttprequest,redirect=nooptext,domain=komputronik.pl
-@@||web.telegram.org^$generichide
 @@||webbtelescope.org/files/live/sites/webb/$image,~3p
 @@||webbyawards.com/wp-content/uploads/sites/*/json^
 @@||webcache.googleusercontent.com^$generichide
@@ -7884,6 +7888,7 @@
 @@||yanxuan.nosdn.127.net^
 @@||yastatic.net/awaps-ad-sdk-js$domain=kinopoisk.ru|video.yandex.ru,script
 @@||yastatic.net/pcode/adfox/header-bidding.js$domain=kp.ru|kp.by|kp.kg|kp.kz
+@@||yastatic.net/pcode/adfox/loader.js$domain=hitfm.ru
 @@||yastatic.net/pcode/adfox/loader.js$domain=kp.ru|kp.by|kp.kg|kp.kz
 @@||yaytrade.com^*/chunks/pages/advert/$~3p
 @@||ydlunacommon-cdn.nosdn.127.net^
