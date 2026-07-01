@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-06-30 21:50:58（北京时间）
+! Version: 2026-07-01 10:09:02（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8063
+! Total count: 8064
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@&ad_type=$domain=ultimate-guitar.com
 @@&http_referer=$domain=chaopx.com
@@ -705,6 +705,7 @@
 @@||adv.blogupp.com^$document
 @@||adv.clickadu.com^$domain=adv.clickadu.com
 @@||adv.gg^$popup
+@@||advert.kf5.com^
 @@||advertisement.taobao.com^$document
 @@||adverts.ie/css/
 @@||advertserve.com^$domain=lewdninja.com
@@ -784,7 +785,6 @@
 @@||aliyuncs.com/*.png
 @@||aliyundrive.com^*/share_link/$xhr
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
-@@||alllaw.112.2o7.net^
 @@||allmusic.com/images/tracking/tracking_pixel.jpg
 @@||allthatsinteresting.com/wordpress/wp-content/plugins/bwp-minify^
 @@||allvideos.me^$generichide
@@ -1601,6 +1601,7 @@
 @@||cdn.boomtrain.com/analyticstrain/snopes^$domain=snopes.com
 @@||cdn.bootcdn.net^
 @@||cdn.bootcdn.net^$document
+@@||cdn.bootcdn.net^$script,domain=38kanshu.net
 @@||cdn.bootcss.com/fuckadblock/3.2.1/fuckadblock.min.js$domain=1090ys8.com
 @@||cdn.bootcss.com/fuckadblock/3.2.1/fuckadblock.min.js$domain=share1223.com
 @@||cdn.bootcss.com^$script,domain=biqutime.com|59xs.com|biqudd.com|u33.me|xbiqugela.com|ysxs8.vip
