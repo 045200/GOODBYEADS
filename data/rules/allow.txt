@@ -2,10 +2,11 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-07-16 09:21:20（北京时间）
+! Version: 2026-07-16 21:13:32（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8039
+! Total count: 8033
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
+@@$popup,domain=datanodes.to,3p
 @@&ad_type=$domain=ultimate-guitar.com
 @@&http_referer=$domain=chaopx.com
 @@*$popup,~third-party,domain=canna.to|canna-power.to
@@ -480,7 +481,6 @@
 @@||ad.admitad.com/*/?ulp=
 @@||ad.adriver.ru/cgi-bin/rle.cgi$domain=mgts.ru
 @@||ad.adverticum.net/g3.js$domain=port.hu
-@@||ad.adverticum.net/scripts/goa3/main/*/goa3.js$domain=port.hu
 @@||ad.alimama.com^$document
 @@||ad.alimama.com^$genericblock
 @@||ad.amgdgt.com/ads/js/*$domain=ad.amgdgt.com
@@ -508,7 +508,6 @@
 @@||ad.mcloud.139.com^$document
 @@||ad.neobux.com/adalert/
 @@||ad.nl/ad/
-@@||ad.ourgame.com^
 @@||ad.ourgame.com^$document
 @@||ad.smartmediarep.com/NetInsight/video/smr$domain=programs.sbs.co.kr
 @@||ad.thsi.cn/siteHome/
@@ -639,7 +638,6 @@
 @@||ads.midwayusa.com^$popup
 @@||ads.openai.com^$popup
 @@||ads.pinterest.com^$popup
-@@||ads.poshtata.online/adsbygoogle.js$domain=seirsanduk.net
 @@||ads.privacy.qq.com^$document
 @@||ads.privacy.qq.com^$domain=privacy.qq.com
 @@||ads.pubmatic.com/AdServer/js/pwt/*/pwt.js$domain=dnaindia.com
@@ -1113,6 +1111,7 @@
 @@||areaclienti.generali.it/plugins/cordova-plugin-fingerprint-aio/www/Fingerprint.js$script,~third-party
 @@||arianatoday.net^$generichide
 @@||arkadiumhosted.com/API/$generichide
+@@||arnhemland-safaris.com/images/made/$image,~3p
 @@||arstechnica.com/information-technology/2019/07/data-slurped-from-4-million-browsers-still-available-via-google-analytics/
 @@||arstechnica.com/services/incr.php?*=interactions.adblock-annoy.click$xmlhttprequest
 @@||arstechnica.com^$generichide,badfilter
@@ -1256,9 +1255,7 @@
 @@||bankofamerica.com^*?adx=
 @@||bankofamerica.com^*?adx=$~3p,xhr
 @@||banma.com/statics/js/??
-@@||banmancounselling.com/wp-content/themes/banman/
 @@||banner-hiroba.com/wp-content/uploads/$image,~3p
-@@||banner.customer.kyruus.com^$domain=doctors.bannerhealth.com
 @@||banner.infoey.com/adbanner.png$domain=phineypet.com
 @@||banners.s1.citilink.ru^$image,domain=citilink.ru
 @@||barax.de/cache/images/logo-*x*-
@@ -2477,6 +2474,7 @@
 @@||dl.r3sub.com^$generichide
 @@||dl.reg.163.com^
 @@||dl.zuimeitianqi.com^$document
+@@||dlh.net/_application/modules/Standard/Adv/assets/advertisement.js
 @@||dlh.net^$script,subdocument,domain=dlh.net
 @@||dlkoo.cc/down/*/*.htm$popup
 @@||dlkoo.cc/down/Copydown1
@@ -2843,6 +2841,7 @@
 @@||file-up.org^$generichide
 @@||file-upload.net/include/adserver.js
 @@||file-upload.net/include/werbebanner-ad.js
+@@||file.vidcdn.pro/images/*.vtt
 @@||file.xiaomi.com^$document
 @@||file.xmpush.xiaomi.com^$document
 @@||filecheck.ru^$elemhide
@@ -4297,7 +4296,7 @@
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~airtelxstream.in|~danet.vn|~einthusan.tv|~sonyliv.com|~spotify.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3$domain=rotana.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3*.js$domain=cbsnews.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|airtelxstream.in|antena3.ro|api.screen9.com|asianctv.upns.pro|asianembed.cam|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|clickorlando.com|cnet.com|crunchyroll.com|delish.com|digi24.ro|distro.tv|doubtnut.com|einthusan.tv|etonline.com|farfeshplus.com|fastcompany.com|filmweb.pl|france24.com|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|gameplayneo.com|games.usatoday.com|gbnews.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|gospodari.com|haberler.com|howstuffworks.com|humix.com|ignboards.com|iheart.com|insideedition.com|irctc.co.in|jilliandescribecompany.com|klix.ba|ktla.com|kxan.com|laurelberninteriors.com|lemino.docomo.ne.jp|locipo.jp|maharashtratimes.com|maxpreps.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|myspace.com|nettavisen.no|newsweek.com|njbeachcams.com|open.video|paralympic.org|paramountplus.com|player.abacast.net|player.amperwave.net|player.earthtv.com|player.performgroup.com|plex.tv|pointmall.rakuten.co.jp|realmadrid.com|rfi.fr|root.cz|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|southpark.lat|southparkstudios.com|sp.nicovideo.jp|spiele.heise.de|sportsbull.jp|sportsport.ba|stirr.com|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|thecw.com|truvid.com|tubitv.com|tunein.com|tv-asahi.co.jp|tv.abcnyheter.no|tv.finansavisen.no|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|utsports.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|wbal.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|zdnet.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|airtelxstream.in|antena3.ro|api.screen9.com|asianctv.upns.pro|asianembed.cam|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|clickorlando.com|cnet.com|crunchyroll.com|delish.com|digi24.ro|distro.tv|doubtnut.com|einthusan.tv|etonline.com|farfeshplus.com|fastcompany.com|filmweb.pl|france24.com|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|gameplayneo.com|games.usatoday.com|gbnews.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|gospodari.com|haberler.com|howstuffworks.com|humix.com|ignboards.com|iheart.com|insideedition.com|irctc.co.in|jilliandescribecompany.com|klix.ba|ktla.com|kxan.com|laurelberninteriors.com|lemino.docomo.ne.jp|locipo.jp|maharashtratimes.com|maxpreps.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|myspace.com|nettavisen.no|newsweek.com|njbeachcams.com|open.video|paralympic.org|paramountplus.com|player.abacast.net|player.amperwave.net|player.earthtv.com|player.performgroup.com|plex.tv|pointmall.rakuten.co.jp|realmadrid.com|rfi.fr|root.cz|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|southpark.lat|southparkstudios.com|spiele.heise.de|sportsbull.jp|sportsport.ba|stirr.com|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|thecw.com|truvid.com|tubitv.com|tunein.com|tv-asahi.co.jp|tv.abcnyheter.no|tv.finansavisen.no|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|utsports.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|wbal.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=24h.com.vn
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=7plus.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=a1.ro
@@ -6435,7 +6434,6 @@
 @@||sdk.ptqy.gitv.tv^$document
 @@||sdkapi.sms.mob.com^$document
 @@||sdkconfig.ad.xiaomi.com^$important
-@@||sdltutorials.com/Data/Ads/AppStateBanner.jpg$~3p
 @@||sdn-global-audio-adswizz-cache.3qsdn.com/*/files/$other,media,domain=noz.de
 @@||se.com/_uce_/immutable/chunks/google-analytics.$script
 @@||se.monetate.net/js/*/custom.js$domain=debenhams.com
@@ -6491,7 +6489,6 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=flagandcross.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=gamer.com.tw
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=gamestar.de
-@@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=infocar.ua
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=news.tvb.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=portmiamiwebcam.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=sinarharian.com.my
@@ -6801,6 +6798,7 @@
 @@||sportnews.to^$generichide
 @@||sports.ru^*/adfox.$xmlhttprequest
 @@||sportsgrid.com/decor/javascript/magnify_stats.js
+@@||sportsnet.ca/wp-content/plugins/bwp-minify/$domain=sportsnet.ca
 @@||sportsvideo.net^$generichide
 @@||spot.im/api/tracker/spot/$domain=russian.rt.com
 @@||spxl.socy.es^$script,xmlhttprequest,domain=3djuegosguias.com|3djuegospc.com|applesfera.com|compradiccion.com|directoalpaladar.com|espinof.com|genbeta.com|poprosa.com|trendencias.com|trendenciashombre.com|vidaextra.com|vitonica.com|xatakamovil.com
@@ -7033,7 +7031,6 @@
 @@||stores.office.com/authredir
 @@||stpd.cloud^$domain=freemcserver.net
 @@||stream.adunity.com^$xmlhttprequest,domain=b1tv.ro
-@@||stream.googleapiscdn.com^$generichide
 @@||stream2watch.org/js/advertisement.js
 @@||stream4free.live^$generichide
 @@||streamlive.to^$generichide
@@ -7729,7 +7726,6 @@
 @@||web.snrbox.com/*?tracker=$domain=carrefourpl.snrpage.com
 @@||web.snrbox.com/rtom-proxy/rtom/configs/getPublicConfigForContext$domain=komputronik.pl
 @@||web.snrbox.com/tck/$xmlhttprequest,redirect=nooptext,domain=komputronik.pl
-@@||web.telegram.org^$generichide
 @@||webbtelescope.org/files/live/sites/webb/$image,~3p
 @@||webcache.googleusercontent.com^$generichide
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
@@ -7873,7 +7869,6 @@
 @@||www.pussyspace.net/upload/no_img.jpg|
 @@||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws='
 @@||www.statcounter.com/images/$image,third-party
-@@||www.ticketmaster.$popup,domain=adclick.g.doubleclick.net
 @@||www.toutiao.com^
 @@||www.twitter.com^$document
 @@||www.ups.com/WebTracking/processInputRequest
@@ -8009,7 +8004,6 @@
 @@||yunjiema.top/static/js/wpsafelink.js
 @@||yuru-mbti.com/static/css/adsense.css$~3p
 @@||yygsz.com^$generichide
-@@||z.moatads.com/freewheel*/MoatFreeWheelJSPEM.js$domain=ncaa.com
 @@||zagaz.com/img/blogads.css
 @@||zaixianjisuan.com^$generichide
 @@||zappos.com/js/trackingPixel/mercentTracker.js
