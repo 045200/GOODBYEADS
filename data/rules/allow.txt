@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-07-24 09:24:47（北京时间）
+! Version: 2026-07-24 21:13:16（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8029
+! Total count: 8031
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$popup,domain=datanodes.to,3p
 @@&ad_type=$domain=ultimate-guitar.com
@@ -197,6 +197,7 @@
 @@/site/ad/*$domain=islide.cc
 @@/site=*/size=*/viewid=$domain=morningstar.in
 @@/social-share.$domain=patentguru.com
+@@/speedtest/upload.php$domain=speedtest.net
 @@/static/ad/main.$domain=bbmei.top|bbmen.top
 @@/store_ad/*$domain=pcstore.com.tw
 @@/sxp/i/*.js$domain=linkvertise.com
@@ -638,6 +639,7 @@
 @@||ads.midwayusa.com^$popup
 @@||ads.openai.com^$popup
 @@||ads.pinterest.com^$popup
+@@||ads.poshtata.online/*.js$domain=seir-sanduk.com
 @@||ads.poshtata.online/adsbygoogle.js$domain=seirsanduk.net
 @@||ads.privacy.qq.com^$document
 @@||ads.privacy.qq.com^$domain=privacy.qq.com
@@ -1461,7 +1463,6 @@
 @@||c.y.qq.com^
 @@||c.yandexcdn.com/js/adv/ads.js$domain=yandexcdn.com
 @@||c.yandexcdn.com/js/adv/advert3.js$domain=yandexcdn.com
-@@||c.yandexcdn.com/js/adv/fuckadblock.js$domain=yandexcdn.com
 @@||c.youdao.com^$document
 @@||c1.skype.com^$document
 @@||cache.nymag.com^*/clickability.js
@@ -2086,10 +2087,12 @@
 @@||cloudfront.net/libs/amplitude-$script,domain=elconfidencial.com
 @@||cloudfront.net/libs/amplitude-*-min.gz.js$domain=elconfidencial.com
 @@||cloudfront.net/opentag*.js$domain=telegraph.co.uk
+@@||cloudfront.net/wp-content/uploads/products/*-300x600.$image,domain=mecox.wpengine.com
 @@||cloudfront.net^*/jquery.google-analytics.js$domain=homepath.com
 @@||cloudimg.io/*/analytics.$script,domain=michelinman.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
 @@||club.tgfcer.com^$generichide
+@@||cm-10-*.getui.com^
 @@||cm-beacon.nakanohito.jp/cm/comment_$xmlhttprequest
 @@||cm-widget.nakanohito.jp/cm/$script,stylesheet
 @@||cm.ksmobile.com/api/GetCloudMsgAdv?pkg=com.cmcm.emoji
@@ -2263,7 +2266,6 @@
 @@||crackedresource.com^$generichide
 @@||crackle.com/vendor/adex.js
 @@||crazygames.com/prebid.js$script,~3p
-@@||crbmpurga.ru/files/files/ads/$image
 @@||cre.dp.sina.cn^
 @@||creaders.net^$generichide
 @@||create.jd.com/ad/
@@ -4549,7 +4551,6 @@
 @@||infotop.jp/html/ad/$image,~3p
 @@||infowars.com/wp-content/themes/$image
 @@||infowars.com^$csp=script-src 'self' *.leadpages.net *.gstatic.com *.google.com *.googleapis.com *.playwire.com *.facebook.com *.bootstrapcdn.com *.twitter.com *.spot.im
-@@||infoworld.com/www/js/ads/gpt_includes.js$~3p
 @@||infusionsoft.app/aff.html$subdocument,domain=pages.infusionsoft.net|reginadancecity.ca
 @@||infusionsoft.com/aff.html$subdocument,domain=pages.infusionsoft.net|reginadancecity.ca
 @@||ing-diba.de^*/sitestat.js
@@ -4830,6 +4831,7 @@
 @@||latimes.com/hive/javascripts/loggingService.js
 @@||latin.it/banner.php
 @@||launcher.spot.im/spot/$script,domain=jac.yahoosandbox.com
+@@||launcher.spot.im/spot/sp_$script,domain=bizpacreview.com
 @@||lcs.naver.com/*?u=*service_id$image,domain=smartstore.naver.com
 @@||lcs.naver.com/m?u=$domain=smartstore.naver.com
 @@||ldxinyong.com^$generichide
@@ -5091,7 +5093,6 @@
 @@||mccc11.com^$generichide
 @@||mccm88.com^$generichide
 @@||mclo.gs/js/logview.js$~third-party
-@@||mcloud.to/embed^$popup
 @@||mcmod.cn/images/banner/
 @@||mcmod.cn/js/jquery.cookie.js
 @@||mcs.snssdk.com/*/user/webid$domain=lv.ulikecam.com
@@ -5385,7 +5386,6 @@
 @@||nceea.cn/Content/images/ad/
 @@||ncomment.kuwo.cn^
 @@||ndr.de/common/resources/lib/atinternet/smarttag.js
-@@||neads.io^$domain=neads.io
 @@||nebula-cdn.kampyle.com^$domain=miclaro.com.gt
 @@||nebula.tv^$generichide
 @@||necaptcha.nosdn.127.net^
@@ -6614,6 +6614,7 @@
 @@||shopback.com.tw^$generichide
 @@||shopeemobile.com/shopee/*/modules/ads/
 @@||shopeesz.com/shopee/*/modules/ads/
+@@||shopify.com/authentication/$permissions=private-state-token-redemption=()
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
 @@||shoptimise.fr/Content/Images/bann_
 @@||short.goldenfaucet.io/*templates/css/viewad.css
@@ -7855,6 +7856,7 @@
 @@||www.pornhub.com^$document
 @@||www.pussyspace.com/ajax/contact/exo-logo.png|
 @@||www.pussyspace.com/class/captcha/arrow.png|
+@@||www.pussyspace.com/class/captcha/captcha.php|
 @@||www.pussyspace.com/favicon.ico|
 @@||www.pussyspace.com/player/loading.gif|
 @@||www.pussyspace.com/style/img/navbg.hover.png|
