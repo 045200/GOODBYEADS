@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-07-28 21:25:40（北京时间）
+! Version: 2026-07-29 09:21:38（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8014
+! Total count: 8016
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$popup,domain=datanodes.to,3p
 @@&ad_type=$domain=ultimate-guitar.com
@@ -230,6 +230,7 @@
 @@://www.exoclick.com/ads.js|
 @@://www.fedex.com/Tracking?
 @@://www.googleadservices.com^|
+@@://xhamster.$script,~3p
 @@=mywebloadt1&$domain=myweb.hinet.net
 @@?adType=$domain=taotaosou.com
 @@?sid=ads$domain=126.com|mail.163.com
@@ -506,6 +507,7 @@
 @@||ad.mcloud.139.com^$document
 @@||ad.neobux.com/adalert/
 @@||ad.nl/ad/
+@@||ad.ourgame.com^
 @@||ad.ourgame.com^$document
 @@||ad.smartmediarep.com/NetInsight/video/smr$domain=programs.sbs.co.kr
 @@||ad.thsi.cn/siteHome/
@@ -1199,9 +1201,9 @@
 @@||avclub.com^*/adManager.$script,~3p
 @@||avgle.com/embed/$genericblock,generichide
 @@||avpgalaxy.net/gpt.js
+@@||aweme.snssdk.com^
 @@||awempire.com/*/css/*.css$domain=awempire.com
 @@||awempire.com^$generichide
-@@||awin1.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||awsstatic.com/*/orchestrate.js$domain=aws.amazon.com
 @@||awsstatic.com/libra/*/vendor/web-vitals.attribution.iife.js$domain=aws.amazon.com
 @@||az.hp.transer.com/content/dam/isetan_mitsukoshi/advertise/$~3p
@@ -3034,7 +3036,6 @@
 @@||gceguide.com^$generichide
 @@||gdh.postcodeloterij.nl/gdltm.js$domain=vriendenloterij.nl
 @@||gdr-online.com/adv/ads.js
-@@||gecko.zijieapi.com^
 @@||geekbang.org/resource/image/ad/14/addb521e20de1a302206f4286eac3914.png
 @@||geekzone.co.nz^$generichide
 @@||geely.com/assets/plugins/sa-sdk-javascript-*/sensorsdata.min.js$domain=galaxy.geely.com|xingyue.geely.com
@@ -5257,7 +5258,6 @@
 @@||monova.*/fonts/
 @@||monova.*/img/
 @@||monova.*/js/main.js
-@@||monsetting.toutiao.com^
 @@||mooc-image.nosdn.127.net^
 @@||mopar.com/moparsvc/mopar-analytics-state$~third-party
 @@||morosedog.gitlab.io^$generichide
@@ -5348,6 +5348,7 @@
 @@||myvidster.com/processor.php
 @@||myxclip.com^$generichide
 @@||n*-lf*-dy-ncdn-tos-sub.bytegecko.com^
+@@||n*-lf-webcast-cdn-tos-ncdn.bytegecko.com^
 @@||n11scdn.akamaized.net/ha.js$domain=n11.com
 @@||n8s.jp^$script,domain=nikkei.com
 @@||na1r.services.adobe.com^$document
@@ -7708,6 +7709,7 @@
 @@||web.snrbox.com/*?tracker=$domain=carrefourpl.snrpage.com
 @@||web.snrbox.com/rtom-proxy/rtom/configs/getPublicConfigForContext$domain=komputronik.pl
 @@||web.snrbox.com/tck/$xmlhttprequest,redirect=nooptext,domain=komputronik.pl
+@@||web.telegram.org^$generichide
 @@||webbtelescope.org/files/live/sites/webb/$image,~3p
 @@||webbyawards.com/wp-content/uploads/sites/*/json^
 @@||webcache.googleusercontent.com^$generichide
