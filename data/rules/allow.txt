@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-07-29 09:21:38（北京时间）
+! Version: 2026-07-29 21:40:30（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8016
+! Total count: 8013
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$popup,domain=datanodes.to,3p
 @@&ad_type=$domain=ultimate-guitar.com
@@ -507,7 +507,6 @@
 @@||ad.mcloud.139.com^$document
 @@||ad.neobux.com/adalert/
 @@||ad.nl/ad/
-@@||ad.ourgame.com^
 @@||ad.ourgame.com^$document
 @@||ad.smartmediarep.com/NetInsight/video/smr$domain=programs.sbs.co.kr
 @@||ad.thsi.cn/siteHome/
@@ -671,7 +670,6 @@
 @@||ads.viralize.tv/t-bid-opportunity/$domain=automoto.it|moto.it
 @@||ads.vk.com^$popup
 @@||ads.vk.ru^$popup
-@@||ads2.banaraswap.in^$xhr,domain=banaraswap.in
 @@||adsafeprotected.com/iasPET.$script,domain=independent.co.uk|reuters.com|wjs.com
 @@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com|wjs.com
 @@||adsales.snidigital.com/*/ads-config.min.js$script
@@ -781,9 +779,11 @@
 @@||aliyuncs.com/*.png
 @@||aliyundrive.com^*/share_link/$xhr
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
+@@||allarewin.space/assets/ads-*.js
 @@||allmusic.com/images/tracking/tracking_pixel.jpg
 @@||allthatsinteresting.com/wordpress/wp-content/plugins/bwp-minify^
 @@||allvideos.me^$generichide
+@@||almayadeen.net/Content/VideoJS/js/videoPlayer/VideoAds.js$domain=almayadeen.net
 @@||alphaapi.brandify.com/rest/clicktrack$xmlhttprequest,domain=traderjoes.com
 @@||als.baidu.com^$document
 @@||altadefinizione.cloud^$generichide
@@ -1058,7 +1058,6 @@
 @@||api2.branch.io/v1/open$domain=flickplay.co
 @@||api2.branch.io^$app=net.booksy.customer
 @@||apis.google.com/js/plusone.js$domain=pornhub.com
-@@||apis.kostprice.com/fapi/$script,domain=gadgets.ndtv.com
 @@||apiservices.krxd.net/click_tracker^
 @@||apjr.needrom.com/advert*.js
 @@||apk.tw^*/ads.js$script,~3p
@@ -1204,6 +1203,7 @@
 @@||aweme.snssdk.com^
 @@||awempire.com/*/css/*.css$domain=awempire.com
 @@||awempire.com^$generichide
+@@||awin1.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||awsstatic.com/*/orchestrate.js$domain=aws.amazon.com
 @@||awsstatic.com/libra/*/vendor/web-vitals.attribution.iife.js$domain=aws.amazon.com
 @@||az.hp.transer.com/content/dam/isetan_mitsukoshi/advertise/$~3p
@@ -1884,7 +1884,6 @@
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$domain=androidaba.com
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$domain=papalah.com
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$domain=sadistic.pl
-@@||cdnjs.cloudflare.com/ajax/libs/fuckadblock^$domain=fotbolltransfers.com
 @@||cdnjs.cloudflare.com/ajax/libs/jquery/*/jquery.min.js$domain=ouo.press|ouo.io
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.js$domain=wtk.pl
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.min.js$domain=linetv.tw
@@ -2037,8 +2036,7 @@
 @@||clicktale.net/wrb.js$domain=microsoft.com
 @@||clicktale.net^$document
 @@||client-uc.heytapmobi.com^$important,document
-@@||client.aps.amazon-adsystem.com/publisher.js$script,domain=thestreet.com
-@@||client.aps.amazon-adsystem.com^$script,domain=newsweek.com
+@@||client.aps.amazon-adsystem.com/publisher.js$script,domain=foxnews.com|newsweek.com|thestreet.com
 @@||client.falixnodes.net^$generichide
 @@||clientlog*music.163.com^$document
 @@||clientlog3.music.163.com^$document
@@ -4560,7 +4558,6 @@
 @@||instapundit.com^$generichide
 @@||instawp.xyz^$generichide
 @@||instreamvideo.ru/crossdomain.xml|
-@@||instreamvideo.ru/storage/InstreamVideoPlugin
 @@||int.mwbbiz.com/static/*/app.js$domain=91porny.com
 @@||int.mwbbiz.com/static/*/videoShow.js$domain=91porny.com
 @@||integrations.fitanalytics.com/shop/modivo/pdp.js$domain=modivo.*
@@ -4710,7 +4707,6 @@
 @@||justnerd.it^$generichide
 @@||jwpcdn.com/player/plugins/googima/$script,domain=iheart.com|video.vice.com
 @@||jwpcdn.com/player/plugins/googima/*/googima.js$domain=viu.tv
-@@||jyllands-posten.dk/app/*ads*.js
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||k.sinaimg.cn^$document
 @@||k12-company.ru^*/statistics.js$script
@@ -5109,7 +5105,6 @@
 @@||media.sosh.fr/includes/wtinit.js
 @@||media.studybreakmedia.com/doubleclick/ads2.js
 @@||media.ticketmaster.*/click_track.js
-@@||media.trafficjunky.net/__js/test.js
 @@||media.wazimo.com/favicons/$domain=lastnighton.com
 @@||media.wazimo.com/logos/$domain=lastnighton.com
 @@||media.wired.it/static_wired/js/misc/cn-adv.js
@@ -6118,6 +6113,7 @@
 @@||query.petametrics.com^$image,xmlhttprequest,domain=mechacomic.jp
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=lanacion.com.ar
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=ranker.com
+@@||qwhdcdn.cmcc-cs.cn^
 @@||qzonestyle.gtimg.cn^
 @@||r.linksprf.com/*/redirect?
 @@||r10s.jp/com/img/home/t.gif?$domain=24.rakuten.co.jp
@@ -6395,6 +6391,7 @@
 @@||scorecardresearch.com/internal-c2/plugins/streamingtag_plugin_jwplayer.js$domain=indiatoday.in
 @@||scorecardresearch.com/p?$domain=web.de
 @@||scorecardresearch.com/r$image,domain=billetnet.dk|billettservice.no|lippupalvelu.fi|pcworld.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se|wsj.com
+@@||scorecardresearch.com^$domain=ticketmaster.com.au
 @@||scorecardresearch.com^$third-party,domain=nissan.ru
 @@||scorecardresearch.com^*/streamingtag_plugin_jwplayer.js
 @@||scrippsdigital.com/cms/videojs/$stylesheet,domain=scrippsdigital.com
@@ -6860,7 +6857,6 @@
 @@||st.wetteronline.de/dr/*/css/p_*.css
 @@||stackblitz.com^$generichide
 @@||staging.flash.sec.miui.com^$document
-@@||standard.co.uk/js/third-party/prebid8.$~3p
 @@||standardmedia.co.ke/assets/js/prebid-google-ads.js
 @@||stapewithadblock.monster^$generichide
 @@||star-telegram.com/mistats/sites/dfw/startelegram.js
@@ -6921,6 +6917,7 @@
 @@||static.cloudflareinsights.com^$domain=quasarzone.com,script
 @@||static.criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 @@||static.criteo.net/js/ld/publishertag.js$domain=xda-developers.com
+@@||static.cz.prg.cmestatic.com/static/shared/app/videojs/plugins/ads/videojs.ads.js$domain=nova.cz
 @@||static.doubleclick.net/instream/ad_status.js$domain=3dzip.org
 @@||static.doubleclick.net/instream/ad_status.js$domain=game3rb.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=investing.com
@@ -7564,6 +7561,7 @@
 @@||v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_*_web_vod&*&host=https%3A%2F%2Fwww.cbsnews.com&$domain=imasdk.googleapis.com
 @@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.com|cmt.com|eonline.com|foodnetwork.com|nbcnews.com|ncaa.com|player.theplatform.com|simpsonsworld.com|today.com
 @@||v.fwmrm.net/ad/p/1?$domain=cdn.watch.aetnd.com
+@@||v.fwmrm.net/ad/p/1?$domain=channel4.com
 @@||v.fwmrm.net/crossdomain.xml$domain=bold.dk
 @@||v.fwmrm.net/crossdomain.xml$xhr
 @@||v.me/personal/assets/ntpagetag-$script
@@ -7585,6 +7583,7 @@
 @@||vast.livejasmin.com^$domain=jptt.tv
 @@||vatanbilgisayar.com/upload/banner/
 @@||vattastic.com/js/fp2/fingerprint2.min.js
+@@||vcdn.xszcdn.com/hls/$domain=xszav1.com
 @@||vcs-quality.zijieapi.com^
 @@||vcs.snssdk.com^$document
 @@||vcs.zijieapi.com^
@@ -7709,7 +7708,6 @@
 @@||web.snrbox.com/*?tracker=$domain=carrefourpl.snrpage.com
 @@||web.snrbox.com/rtom-proxy/rtom/configs/getPublicConfigForContext$domain=komputronik.pl
 @@||web.snrbox.com/tck/$xmlhttprequest,redirect=nooptext,domain=komputronik.pl
-@@||web.telegram.org^$generichide
 @@||webbtelescope.org/files/live/sites/webb/$image,~3p
 @@||webbyawards.com/wp-content/uploads/sites/*/json^
 @@||webcache.googleusercontent.com^$generichide
@@ -7976,7 +7974,6 @@
 @@||youneed.win^$generichide
 @@||youporn.com/embed/$subdocument
 @@||youtube.com/get_video_info?$xhr,domain=music.youtube.com|tv.youtube.com
-@@||youtube.com/my_video_ad$document
 @@||youvisit.com/SmartScript/$script,domain=uaf.edu
 @@||youvisit.com/tour/$script,subdocument,domain=uaf.edu
 @@||ytimg.com^*_banner$domain=youtube.com
