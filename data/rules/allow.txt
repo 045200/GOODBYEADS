@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-08-02 09:27:23（北京时间）
+! Version: 2026-08-02 20:52:43（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8006
+! Total count: 8007
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$popup,domain=datanodes.to,3p
@@ -508,7 +508,6 @@
 @@||ad.mcloud.139.com^$document
 @@||ad.neobux.com/adalert/
 @@||ad.nl/ad/
-@@||ad.ourgame.com^
 @@||ad.ourgame.com^$document
 @@||ad.smartmediarep.com/NetInsight/video/smr$domain=programs.sbs.co.kr
 @@||ad.thsi.cn/siteHome/
@@ -539,14 +538,12 @@
 @@||addon.dismall.com^$document
 @@||addthis.com/*-angularjs.min.js$script,domain=ead.senac.br|missingkids.com|missingkids.org
 @@||addthis.com/js/*/addthis_widget.js$script,domain=stagecoachbus.com
-@@||adguardpartner.com^$generichide,genericblock
 @@||adidas.com^*/adidasAnalytics.js?
 @@||adidasoriginals-lookbook.com.tw/js/adtracking.js
 @@||adikpm.github.io/repo/assets/js/prebid_hb_3293_5687.js
 @@||adjs.8591.com.tw^$document
 @@||adjs.8591.com.tw^$script
 @@||adm.fwmrm.net/crossdomain.xml
-@@||adm.fwmrm.net/p/cracklecom_flash_live/AdManager.swf^$domain=crackle.com
 @@||adm.fwmrm.net^$domain=revision3.com
 @@||adm.fwmrm.net^*/TremorAdRenderer.$object,domain=go.com
 @@||admin.corrata.com/console/dcconsolews/event-log?$~third-party
@@ -861,6 +858,7 @@
 @@||analytics.cervell.io/api/collect/connect$domain=cildimveben.com
 @@||analytics.cervell.io/api/product/getProduct/$domain=cildimveben.com
 @@||analytics.digitalpfizer.com/js/prod/pcc/pf_appmeasurement.js$domain=pfizer-covid19-vaccine.jp
+@@||analytics.disneyinternational.com/ads/$other
 @@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=raiplay.it
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=br.de
 @@||analytics.edgekey.net/js/csma.js^$domain=verdi.de
@@ -1059,6 +1057,7 @@
 @@||api2.branch.io/v1/open$domain=flickplay.co
 @@||api2.branch.io^$app=net.booksy.customer
 @@||apis.google.com/js/plusone.js$domain=pornhub.com
+@@||apis.kostprice.com/fapi/$script,domain=gadgets.ndtv.com
 @@||apiservices.krxd.net/click_tracker^
 @@||apjr.needrom.com/advert*.js
 @@||apk.tw^*/ads.js$script,~3p
@@ -1146,6 +1145,7 @@
 @@||assets.sport1.de/bundles/
 @@||assets.yasno.live/packs/assets/analytics-events-$script,~third-party
 @@||assets1.gio.com.au/suncorp/gio-bw-prod/Bootstrap.js$domain=gio.com.au
+@@||assoc-amazon.com/widgets/cm?$subdocument,domain=atcoder.jp
 @@||astatic.ccmbg.com/fc/js/prebid?v=$domain=journaldunet.com
 @@||astatic.ccmbg.com^*/prebid$script,domain=linternaute.com
 @@||astyle.alicdn.com/??
@@ -1259,7 +1259,6 @@
 @@||basinnow.com/upload/settings/advertise-img.jpg
 @@||bat.bing.com/bat.js$domain=airbnb.ru
 @@||battlecats-db.com^$generichide
-@@||bauersecure.com/dist/js/prebid/$domain=carmagazine.co.uk
 @@||baumberger.shop/cache/javascript_*_responsive_ad_footer.js$~third-party
 @@||baumberger.shop/cache/style_*_responsive_ad_header.css$~third-party
 @@||bbc.co.uk/frameworks/nedstat/$script,~third-party
@@ -1281,6 +1280,7 @@
 @@||bdash-cloud.com/tracking-script/*/tracking.js$domain=junonline.jp
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||bdimg.com/libs/$domain=23xswv.cc|biquge77.net|yebiquge.com|taobiquge.com|piaotianxiaoshuo.com|bqduo.cc|biqutime.com|00ksw.com|147xiaoshuo.com|23xstxt.net|24kxs.cc|8181zw.vip|b520.cc|b5200.net|biqivge.cc|xbiquge99.cc|biqugecd.com|biqugewu.net|boquku.com|bqq999.cc|bqwxg8.com|bxwx.live|ddbqgtxt.cc|gdbzkz.org|msxsw.com|paoshu8.com|piaotian55.com|quge66.com|shuyy8.com|sytxt.cc|txtwan.com|u33.me|xqianqian.cc|xxbiqudu.com|xygwh.cc|ygshu.com|yuyougu.com
+@@||bdimg.com/static/wapwenku/static/common/widget/share/share_
 @@||bdimg.com/static/wenda-pc/widget/share/share_
 @@||bdimg.com/static/wkcore/widget/adControl/adControl_
 @@||bdiptv.stream^$generichide
@@ -1309,6 +1309,7 @@
 @@||beyondsoft.com/dataservice/img/ad_
 @@||bgp.he.net/images/flags/*.gif?$image,~third-party
 @@||bgp.video-upload-v*.lf.bytelb.net^
+@@||bhavanijewellery.in/ads9.gif$domain=atozmath.com
 @@||bhg.com/web/js-min/common/js/dwr/RemoteTargetingService.js
 @@||bid.g.doubleclick.net/dbm/vast$xhr,domain=safeframe.googlesyndication.com
 @@||bidder.criteo.com/amp/rtc$domain=ettoday.net
@@ -1902,7 +1903,6 @@
 @@||cdntrf.com/trfAdSetup.js$domain=tz.de
 @@||cdntvn.pl/*/assets/*advert*.js$domain=player.pl|get.x-link.pl|tvn24.pl|vod.pl
 @@||cdpn.io^$generichide
-@@||cds.w6x3h2w2.hwcdn.net/ads/advertisement.js
 @@||ced-ns.sascdn.com/diff/video/current/libs/js/controller.js$domain=ln24.be
 @@||ced.sascdn.com/tag/*/smart.js$domain=ln24.be
 @@||cedexis.com/zones/*/customers/*/apps/*/decision$domain=play.history.com
@@ -2185,7 +2185,6 @@
 @@||connatix.com^$domain=nypost.com
 @@||connatix.com^$domain=sport-fm.gr|sport24.gr|variety.com
 @@||connatix.com^$domain=sun-sentinel.com
-@@||connect.facebook.*/en_US/AudienceNetworkPrebid.js$domain=cbssports.com
 @@||connect.facebook.net/*/fbevents.js$domain=smartstore.naver.com
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||console.bce.baidu.com^$domain=console.bce.baidu.com
@@ -4011,6 +4010,7 @@
 @@||grapeshot.co.uk/main/channels.cgi$script,domain=telegraph.co.uk
 @@||grapeshot.co.uk/sare-api/
 @@||graphracer.com/js/libs/heatmap.js
+@@||gratis.com/Banners/
 @@||grattable.com/blogads.css
 @@||groupbycloud.com/gb-tracker-client-3.min.js
 @@||gs.statcounter.com/chart.php$script,third-party
@@ -4416,7 +4416,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wibc.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=winfuture.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wsls.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wuxiaworld.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=xxxdan.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=yad.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=yandexcdn.com
@@ -4974,6 +4973,7 @@
 @@||m.jingxi.com^
 @@||m.media-amazon.com/images/*/csm/showads.$domain=read.amazon.*|primevideo.com
 @@||m.muensterschezeitung.de/var/storage/images^
+@@||m.thepiratebay.org/comments.php
 @@||m.timesofindia.com/*ads*.cms
 @@||m.timesofindia.com/ad-*.cms
 @@||m.toutiao.com^
@@ -5102,6 +5102,7 @@
 @@||media.wazimo.com/logos/$domain=lastnighton.com
 @@||media.wired.it/static_wired/js/misc/cn-adv.js
 @@||mediaalpha.com/js/serve.js$domain=goseek.com
+@@||mediacdn.disqus.com^$document
 @@||mediaite.com/decor/javascript/magnify_stats.js$domain=videos.mediaite.com
 @@||mediamarkt.com.tr^$genericblock
 @@||mediamarkt.de/*/shop^
@@ -5611,6 +5612,7 @@
 @@||p6-flow-imagex-sign.byteimg.com^
 @@||p9-dcd-sign.byteimg.com^
 @@||p9-dcd.byteimg.com^
+@@||p9-dy.byteimg.com
 @@||p9-dy.byteimg.com^
 @@||p9-flow-imagex-sign.byteimg.com^
 @@||pacaio.match.qq.com^$document
@@ -6926,7 +6928,6 @@
 @@||static.expressbpd.com/rsjs/ads.js
 @@||static.flight-report.com/static/js/adsAPI.js$domain=flight-report.com
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
-@@||static.h-bid.com/prebid/*/prebid.js$domain=makeuseof.com
 @@||static.hdslb.com/ad-images/$image
 @@||static.hotjar.com/c/hotjar-$script,domain=mercadopublico.cl
 @@||static.knowledgehub.com/global/images/ping.gif?$~third-party
@@ -6961,6 +6962,7 @@
 @@||static.vocstatic.com/voonto2/latest/voonto.js$script,domain=lagacetadesalamanca.es
 @@||static.vocstatic.com^$script,domain=areapersonal.hoy.es
 @@||static.vocstatic.com^$script,stylesheet,domain=ideal.es
+@@||static.vrv.co^$media,domain=crunchyroll.com
 @@||static.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@||static00.forvo.com/_presentation/assets/js/vendor_mobile_no_ads.js
 @@||statics.zcool.com.cn/track/sensors.$script,~third-party
@@ -7009,6 +7011,7 @@
 @@||stream4free.live^$generichide
 @@||streamlive.to^$generichide
 @@||streamlord.com^$generichide
+@@||streamsb.net/pop.js
 @@||streamtape.*/ad.js
 @@||streamtape.com^$popup,domain=streamtape.to
 @@||streamwish.com/js/dnsads.js?ads
@@ -7072,7 +7075,6 @@
 @@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|foxsports.com
 @@||taboola.com/magazine/$domain=taboolanews.com
 @@||taboolanews.com/feed/summary?publisherId=Taboola_samsung-carnival-us&key=Taboola&viewID=$generichide
-@@||taboolanews.com/summary-page/*_samsung-carnival-$generichide
 @@||tag.aticdn.net/*/at.js$domain=tv5monde.com
 @@||tag.aticdn.net/*/smarttag.js$domain=compteczam.fr
 @@||tag.aticdn.net/*/smarttag.js$domain=ebp.com
@@ -7220,7 +7222,6 @@
 @@||thegay.com/assets//jwplayer-*/jwplayer.core.controls.js|$domain=thegay.com
 @@||thegay.com/assets//jwplayer-*/jwplayer.js|$domain=thegay.com
 @@||thegay.com/assets//jwplayer-*/provider.hlsjs.js|$domain=thegay.com
-@@||thegay.com/assets/jwplayer-*/jwplayer.js|$domain=thegay.com
 @@||thegay.com/upd/*/assets/preview*.js|$domain=thegay.com
 @@||thegay.com/upd/*/static/js/*.js|$domain=thegay.com
 @@||thehackernews.com/images^
@@ -7315,7 +7316,6 @@
 @@||tpc.googlesyndication.com/pagead/js/*/elements/html/countdown_handler_fy2021.js$domain=safeframe.googlesyndication.com
 @@||tpc.googlesyndication.com/pagead/js/*/elements/html/interstitial_ad_frame_$script,domain=safeframe.googlesyndication.com
 @@||tpc.googlesyndication.com/pimgad/$image,domain=ads.google.com
-@@||tpc.googlesyndication.com/safeframe/*/html/container.html$domain=247sports.com
 @@||tpc.googlesyndication.com/simgad/$domain=ads.google.com
 @@||tpc.googlesyndication.com/simgad/$domain=financemonk.net
 @@||tpc.googlesyndication.com/simgad/$domain=smartkhabrinews.com|streama2z.com
@@ -7526,6 +7526,7 @@
 @@||userapi.com^*.gif?extra=$image,domain=vk.com
 @@||usercdn.com/cgi-bin/upload.cgi
 @@||usercdn.com/tmp/status.html
+@@||usercdn.com^$domain=userscloud.com
 @@||userreport.com/*/settings.js$domain=csb.app
 @@||userreport.com/SystemSettings.js$domain=csb.app
 @@||userreport.com/computools/launcher.js$domain=csb.app
