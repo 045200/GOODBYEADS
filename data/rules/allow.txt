@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-08-06 09:18:35（北京时间）
+! Version: 2026-08-06 21:29:19（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7992
+! Total count: 7980
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$popup,domain=datanodes.to,3p
@@ -76,7 +76,6 @@
 @@/adrum.js$domain=usbank.com
 @@/ads-api.$domain=moneysave.info|zxmee.com
 @@/ads.*.js$domain=notebookcheck-hu.com|notebookcheck.com|notebookcheck.net|notebookcheck.org|notebookcheck.biz|notebookcheck.it|notebookcheck.nl|notebookcheck.info|notebookcheck-tr.com|notebookcheck.se|notebookcheck-ru.com
-@@/ads.js$domain=cut-urls.com,~3p
 @@/ads.js$domain=iyf.tv
 @@/ads.js$script,~third-party,domain=abcbourse.com|action-sociale.org|anime-vf.fr|impactmangas.fr|presse-algerie.net|primfx.com|undernews.fr
 @@/ads/*$domain=189.cn|95516.com
@@ -509,7 +508,6 @@
 @@||ad.mcloud.139.com^$document
 @@||ad.neobux.com/adalert/
 @@||ad.nl/ad/
-@@||ad.ourgame.com^
 @@||ad.ourgame.com^$document
 @@||ad.smartmediarep.com/NetInsight/video/smr$domain=programs.sbs.co.kr
 @@||ad.thsi.cn/siteHome/
@@ -544,6 +542,7 @@
 @@||adikpm.github.io/repo/assets/js/prebid_hb_3293_5687.js
 @@||adjs.8591.com.tw^$document
 @@||adjs.8591.com.tw^$script
+@@||adjust.com/adjust-latest.min.js$domain=anchor.fm
 @@||adm.fwmrm.net/crossdomain.xml
 @@||adm.fwmrm.net^$domain=revision3.com
 @@||adm.fwmrm.net^*/TremorAdRenderer.$object,domain=go.com
@@ -692,7 +691,6 @@
 @@||adst.mp.pl^$domain=mp.pl
 @@||adsterra.com/images/*.png$image,domain=unlockapk.com
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,3p,domain=jjazz.net|lamusica.com
-@@||adswizz.com/sca_newenco/$domain=triplem.com.au
 @@||adswizz.com^$domain=noz.de
 @@||adtech.de/dt/common/DAC.js$domain=worldsnooker.com
 @@||adtng.com/get/$subdocument,domain=hanime.tv
@@ -911,6 +909,7 @@
 @@||anyporn.com/js/v*_all.js
 @@||anyporn.com/js/videopreview.js^
 @@||anyporn.com/js_ads/banner.js$~3p
+@@||anyporn.com/player/kt_player_*.jsx
 @@||aobi.100bt.com/play/ad/ad*.swf
 @@||aol.com/mm_track/slideshow/$subdocument
 @@||aolcdn.com/js/mg2.js$domain=autoblog.com|autos.aol.com|dailyfinance.com
@@ -1036,6 +1035,7 @@
 @@||api.poki.com/ads/houseads/$domain=ninja.io
 @@||api.poki.com/ads/houseads/video/$domain=vectaria.io
 @@||api.production.k8s.y3o.tv/*/video-ads/$domain=yallo.tv
+@@||api.rhombusads.com/v*/embed/check$domain=spin.com
 @@||api.sec.intl.miui.com^$document
 @@||api.sec.miui.com^
 @@||api.sec.miui.com^$document
@@ -1416,6 +1416,7 @@
 @@||bulurum.com/v*/Images/Mvc/home/advertise_*.png
 @@||bundesliga.de/js/xtcore.js
 @@||burzowo.info/*.js?&
+@@||business-standard.com/ad/banner.js
 @@||business.nikkei.com/js/bpcommon/onetag/bpTrackVars.js$domain=business.nikkei.com
 @@||business.nikkei.com/js/bpcommon/onetag/bpTrackVarsCommon.js$domain=business.nikkei.com
 @@||businessclick.ch/index.js$domain=finanzen.ch
@@ -1453,7 +1454,6 @@
 @@||c.pc.qq.com^$document
 @@||c.slickstream.com/app/*/app.js$domain=bakerita.com|letthemeatgfcake.com
 @@||c.slickstream.com/app/*/boot-loader.js$domain=bakerita.com|letthemeatgfcake.com
-@@||c.speedtest.net/flash/wave-*.swf
 @@||c.webengage.com/lw/*.jpg?p=
 @@||c.webtrends-optimize.com/acs/$image,script,domain=tvlicensing.co.uk
 @@||c.y.qq.com^
@@ -1691,7 +1691,6 @@
 @@||cdn.jsdelivr.net/npm/fingerprintjs2$domain=wannadep.com
 @@||cdn.jsdelivr.net/npm/fuckadblock*/fuckadblock.js$domain=shinden.pl
 @@||cdn.jsdelivr.net/npm/fuckadblock@3.2.1/fuckadblock.min.js
-@@||cdn.jsdelivr.net/npm/jquery*/dist/jquery.min.js$domain=strikeout.nu
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads$script,domain=rtl.hr
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.css$domain=yandexcdn.com
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.js$domain=yandexcdn.com
@@ -1877,7 +1876,6 @@
 @@||cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/2.1.0/fingerprint2.js$script,domain=picoworkers.com
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.js
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js
-@@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$domain=androidaba.com
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$domain=papalah.com
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$domain=sadistic.pl
 @@||cdnjs.cloudflare.com/ajax/libs/jquery/*/jquery.min.js$domain=ouo.press|ouo.io
@@ -1925,7 +1923,6 @@
 @@||chat.d-id.com/assets/mixpanel.$~third-party
 @@||chat.dbo-dengi.online/*/track?event=$script,domain=online.mtsdengi.ru
 @@||chatgpt.com^$generichide
-@@||chaturbate.com/*embed^$domain=chatterbate.org|uuu.cam
 @@||chaturbate.com/*embed^$domain=sweetpornlinks.com
 @@||chaturbate.com/in/$subdocument,domain=cam-sex.net
 @@||chaturbate.com/in/$subdocument,domain=cbhours.com|pussyspace.com|pussyspace.net|lemoncams.com
@@ -2885,7 +2882,6 @@
 @@||franceinfo.fr/assets/*/piano-analytics/piano-analytics-$script,~third-party
 @@||frandroid.com/ads.js
 @@||franklymedia.com/*/300x150_WBNQ_TEXT.png$image,domain=wbnq.com
-@@||free-premium.maxidbr.com^$generichide
 @@||free-reseau.fr/css/publicite.css|$stylesheet
 @@||freeapps4y.blogspot.com^$generichide
 @@||freebitco.in^$generichide
@@ -2923,7 +2919,6 @@
 @@||fusacq.com/javascript/advertising.js|$script
 @@||fuseplatform.net^*/fuse.js$script,domain=broadsheet.com.au|friendcafe.jp
 @@||fussball.de/fbed/js/xtcore.js
-@@||fuyufs.com^$generichide
 @@||fwmrm.net/ad/g/1?$domain=ncaa.com
 @@||fxporn69.com^$generichide
 @@||g.adspeed.net/ad.php?do=detectadblocker$domain=btcbunch.com
@@ -3016,7 +3011,6 @@
 @@||gaua.hit.gemius.pl/gplayer.js$domain=tsn.ua
 @@||gaus.ee^$generichide
 @@||gay69.stream^$generichide
-@@||gaynetwork.co.uk/Images/ads/bg/$image,~3p
 @@||gbf.wiki/images/$image,~3p
 @@||gboku.com^$generichide
 @@||gceguide.com^$generichide
@@ -5206,7 +5200,6 @@
 @@||mobileads.indiatimes.com/Web_Ads/js/22april16/prebid_1.js$script,domain=m.timesofindia.com
 @@||mobilist.kuwo.cn^
 @@||mobinovels.com^$generichide
-@@||modulous.huffpost.com/static/js/prebid-ads.js
 @@||moea.gov.tw/EgisWeb/Scripts/google-analytics.js
 @@||moegirl.org.cn^$generichide
 @@||mohanlalmovieshub.blogspot.com^$generichide
@@ -5453,7 +5446,6 @@
 @@||odb.outbrain.com/utils/get?url=$script,domain=cnn.com
 @@||odb.outbrain.com^$domain=nypost.com
 @@||odcdn.com^*/cm.js
-@@||oddee.com/w_files/scripts/adblock.js
 @@||oemdtc.com^$generichide
 @@||offgamers.com/checkout/buyNow/$document,xhr
 @@||officeapps.live.com^$domain=cloud.microsoft
@@ -5602,7 +5594,6 @@
 @@||p6-flow-imagex-sign.byteimg.com^
 @@||p9-dcd-sign.byteimg.com^
 @@||p9-dcd.byteimg.com^
-@@||p9-dy.byteimg.com
 @@||p9-dy.byteimg.com^
 @@||p9-flow-imagex-sign.byteimg.com^
 @@||pacaio.match.qq.com^$document
@@ -5966,7 +5957,6 @@
 @@||pptv.com/webdelivery/webafp?cb=loadAdStatus&*sports.pp
 @@||prd.jwpltx.com/*/jwplayer$domain=embed.watchanimesub.net
 @@||prebid-asia.creativecdn.com/bidder/prebid/bids$domain=atozmath.com
-@@||prebid.adnxs.com^$xhr,domain=go.cnn.com
 @@||preromanbritain.com/maxymiser/$~3p
 @@||prgwonders.blogspot.com^$generichide
 @@||primis.tech^$domain=sportsmole.co.uk
@@ -7286,12 +7276,12 @@
 @@||top.list.ru/jump?from=$domain=pvo.guns.ru
 @@||toplay.biz/log_event$~third-party,xmlhttprequest
 @@||toplien.fr^$generichide
-@@||topvideosgay.com^$generichide
 @@||topzone.lt^$generichide
 @@||torrage.info/torrent.php$popup,3p
 @@||torrentsafe.com/fingerprint2.min.js
 @@||torupload.com/token/gettoken.php$domain=torupload.com|nathanmichaelphoto.com
 @@||totheglory.im/pic/ttg_logo
+@@||tous-sports.fr/js/advertisement-AdBlock.js
 @@||tous-sports.tv/js/advertisement-AdBlock.js
 @@||toweroffantasy-global.com/events/accounttransfer/public/js/fingerprint.js$~third-party
 @@||townwork.net/js/AppMeasurement.js$~third-party
@@ -7570,7 +7560,6 @@
 @@||vd.l.qq.com^$document
 @@||veev.to^$generichide
 @@||venipa.net^$generichide
-@@||verdirectotv.com^$generichide
 @@||verify.snssdk.com^$document
 @@||verizon.com/images/track/track.gif?track=load&$xmlhttprequest
 @@||verticalscope-com.videoplayerhub.com/galleryplayer.js$domain=skyscrapercity.com
@@ -7852,7 +7841,6 @@
 @@||xbox-store-checker.com/assets/js/*ads*.js
 @@||xboxforum.pl^$generichide
 @@||xcweather.co.uk/*/geo.php?
-@@||xdownloaderz.com^$generichide
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com/stream/js/api/fingerprint.js$domain=xfinity.com
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
