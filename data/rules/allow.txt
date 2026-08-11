@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-08-11 08:46:52（北京时间）
+! Version: 2026-08-11 20:36:20（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7995
+! Total count: 7989
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$popup,domain=datanodes.to,3p
@@ -508,7 +508,6 @@
 @@||ad.mail.ru/adp/?_SITEZONE=15&json=1^$xmlhttprequest,domain=mail.ru
 @@||ad.mcloud.139.com^$document
 @@||ad.nl/ad/
-@@||ad.ourgame.com^
 @@||ad.ourgame.com^$document
 @@||ad.smartmediarep.com/NetInsight/video/smr$domain=programs.sbs.co.kr
 @@||ad.thsi.cn/siteHome/
@@ -544,7 +543,6 @@
 @@||adjs.8591.com.tw^$document
 @@||adjs.8591.com.tw^$script
 @@||adjust.com/adjust-latest.min.js$domain=anchor.fm
-@@||adm.fwmrm.net/crossdomain.xml
 @@||adm.fwmrm.net^$domain=revision3.com
 @@||adm.fwmrm.net^*/TremorAdRenderer.$object,domain=go.com
 @@||admin.corrata.com/console/dcconsolews/event-log?$~third-party
@@ -682,6 +680,7 @@
 @@||adserver.skiresort-service.com/www/delivery/spcjs.php?$script,domain=skiresort.de|skiresort.fr|skiresort.info|skiresort.it|skiresort.nl
 @@||adservice.google.com/adsid/integrator.js$domain=943thex.com
 @@||adservice.google.com/adsid/integrator.js$domain=logi.im
+@@||adserving.unibet.com^$domain=sportlemon.me
 @@||adshnk.com^$generichide
 @@||adslink.pw^$generichide
 @@||adsmanager.facebook.com^$generichide
@@ -778,7 +777,6 @@
 @@||aliyuncs.com/*.png
 @@||aliyundrive.com^*/share_link/$xhr
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
-@@||allarewin.space/assets/ads-*.js
 @@||allmusic.com/images/tracking/tracking_pixel.jpg
 @@||allthatsinteresting.com/wordpress/wp-content/plugins/bwp-minify^
 @@||allvideos.me^$generichide
@@ -921,6 +919,7 @@
 @@||ap6.ssl.msdk.qq.com^
 @@||ap6.ssl.msdk.qq.com^$document
 @@||aphim.co^$generichide
+@@||api-*.spot.im/v*/widget/spot/sp_*/conversation_header$domain=bizpacreview.com
 @@||api-analytics.magstimconnect.net^$~third-party
 @@||api-cn.store.heytapmobi.com^$document
 @@||api-cn.theme.heytapmobi.com^$document
@@ -1341,7 +1340,6 @@
 @@||bitauto.com/bglogpostlog.js
 @@||bitbucket.org^$generichide
 @@||bitent.com/lock_html5/adscontrol.js$domain=bitent.com
-@@||bitsilver.io^$generichide
 @@||biv.gazeta.pl/resources/emailLoginPage__front/$domain=oauth.gazeta.pl
 @@||biz.yelp.com/ads?$popup
 @@||bizx.info$domain=sourceforge.net
@@ -2849,7 +2847,6 @@
 @@||flag.lab.amplitude.com^$domain=watch.outsideonline.com
 @@||flash.sec.intl.miui.com^$document
 @@||flash.sec.miui.com^$document
-@@||flipboard.com/*/vendors~videojs-contrib-ads.*.bundle.js
 @@||flipboard.com/*/videojs-contrib-ads.*.bundle.js
 @@||flormar.webinstats.com^$domain=flormar.com.tr
 @@||fltaradio.com/js/ads.js
@@ -3122,7 +3119,6 @@
 @@||go.redirectingat.com^$document
 @@||go.trvdp.com/init/$domain=olhardigital.com.br
 @@||go.xliirdr.com/?*targetDomain=fikfapcams.com$domain=fikfap.com
-@@||go.xlirdr.com/api/models/vast$xhr
 @@||go2stream.net/stream/live/track/view/Tracking.php$domain=go2stream.net
 @@||gocomics.com/assets/ad-dependencies-$script,~3p
 @@||godlikeproductions.com/adblock/js/checks/fingerprint.js$domain=godlikeproductions.com
@@ -4480,7 +4476,6 @@
 @@||imgdrive.net/anex/alt2.js
 @@||imgtaxi.com/img-*.html
 @@||imgur.com/min/px.js$~third-party
-@@||imgwallet.com/advertisement.js
 @@||imk.neweggimages.com/webresource/scripts/plugin/inhousebiztra.js$domain=newegg.com
 @@||imobiliare.ro/js/gtm.js$script,~third-party
 @@||imore.com/sites/imore.com/files/*/public/field/image/*/google-ad$image,domain=imore.com
@@ -5714,7 +5709,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=theteacherscorner.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=iconmonstr.com,xhr
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=noor-book.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=truffeonline.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=autobild.de
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=safelink.miuipedia.com
@@ -6021,6 +6015,7 @@
 @@||pubads.g.doubleclick.net/gampad/ads?*=xml_vast*nova.cz$domain=nova.cz
 @@||pubads.g.doubleclick.net/gampad/ads?ad_rule=0&d_imp=1&gdfp_req=1&iu=%2F6762%2Fmkt.ythome_1x1$domain=youtube.com
 @@||pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&output=xml_vast*&url=http%3A%2F%2Famp.usatoday.com
+@@||pubads.g.doubleclick.net/gampad/adx^$domain=saavn.com
 @@||pubads.g.doubleclick.net/gampad/live/ads?correlator=$domain=rx.iscdn.net
 @@||pubads.g.doubleclick.net/ondemand/*/content/*/streams/*.m3u8$domain=10play.com.au|10.com.au
 @@||pubads.g.doubleclick.net/ondemand/*/content/*/streams|$xhr,domain=10play.com.au|10.com.au
@@ -6142,6 +6137,7 @@
 @@||rddywd.com/adcode.png$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk|comicallyincorrect.com|thegatewaypundit.com|toptenz.net
 @@||reactandshare.com^$domain=maanmittauslaitos.fi
 @@||read.amazon.co.jp/*/show_ad.js$script,~3p
+@@||readmng.com^$csp=script-src 'self' * 'unsafe-inline'
 @@||readmoo.com/images/social/
 @@||real.de/fileadmin/template/javascript/emos2.js
 @@||realclearpolitics.com/esm/assets/js/admiral.js
@@ -6256,7 +6252,6 @@
 @@||s-pt.ppstatic.pl/o/js/pp-ads/ads.js
 @@||s.206ads.com/core.js$domain=androidauthority.com
 @@||s.206ads.com/helper.js$domain=androidauthority.com
-@@||s.206ads.com/js/data/androidauthority.com.js$domain=androidauthority.com
 @@||s.adadapter.netzathleten-media.de/*/naMediaAd.js$domain=wooco.de
 @@||s.click.alimama.com^$document
 @@||s.click.taobao.com^$document
@@ -6619,7 +6614,6 @@
 @@||simple.ripley.cl$generichide
 @@||simpleanalyticsexternal.com^$script,domain=inleo.io
 @@||simplelogin.io^$cookie
-@@||simulatedapeminer.com^$generichide
 @@||simyo.de/b/ss/$image
 @@||sina.com.cn/litong/*/close
 @@||sina.com.hk^*_ads.cgi
@@ -7065,7 +7059,6 @@
 @@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|entrepreneur.com|foxsports.com
 @@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|foxsports.com
 @@||taboola.com/magazine/$domain=taboolanews.com
-@@||taboolanews.com/feed/summary?publisherId=Taboola_samsung-carnival-us&key=Taboola&viewID=$generichide
 @@||tag.aticdn.net/*/at.js$domain=tv5monde.com
 @@||tag.aticdn.net/*/smarttag.js$domain=compteczam.fr
 @@||tag.aticdn.net/*/smarttag.js$domain=ebp.com
@@ -7223,6 +7216,7 @@
 @@||themarker.com/logger/p.gif?$image,xmlhttprequest
 @@||themarker.com/logger/p.gif?*=COMMENTS$xmlhttprequest
 @@||themarker.com/logger/p.gif?a=$image
+@@||themelock.com/advertisement.js
 @@||themes.googleusercontent.com/static/fonts/$domain=tweaktown.com
 @@||themeslide.com^$generichide
 @@||themoviedb.org/assets/
@@ -7693,6 +7687,7 @@
 @@||web.snrbox.com/*?tracker=$domain=carrefourpl.snrpage.com
 @@||web.snrbox.com/rtom-proxy/rtom/configs/getPublicConfigForContext$domain=komputronik.pl
 @@||web.snrbox.com/tck/$xmlhttprequest,redirect=nooptext,domain=komputronik.pl
+@@||web.telegram.org^$generichide
 @@||webbtelescope.org/files/live/sites/webb/$image,~3p
 @@||webbyawards.com/wp-content/uploads/sites/*/json^
 @@||webcache.googleusercontent.com^$generichide
@@ -7912,7 +7907,6 @@
 @@||yanxuan.nosdn.127.net^
 @@||yastatic.net/awaps-ad-sdk-js$domain=kinopoisk.ru|video.yandex.ru,script
 @@||yastatic.net/pcode/adfox/header-bidding.js$domain=kp.ru|kp.by|kp.kg|kp.kz
-@@||yastatic.net/pcode/adfox/loader.js$domain=hitfm.ru
 @@||yastatic.net/pcode/adfox/loader.js$domain=kp.ru|kp.by|kp.kg|kp.kz
 @@||yaytrade.com^*/chunks/pages/advert/$~3p
 @@||ydlunacommon-cdn.nosdn.127.net^
