@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-08-14 20:36:10（北京时间）
+! Version: 2026-08-15 08:31:50（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7987
+! Total count: 7986
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$popup,domain=datanodes.to,3p
@@ -173,7 +173,8 @@
 @@/js/prebid-$domain=huruwo.top
 @@/kcarting-tally?&random=$domain=coveryourtracks.eff.org
 @@/log/report/*$script,domain=bilibili.com
-@@/media/*/js/adblock_detector.js$domain=eska.pl|eskarock.pl|voxfm.pl|vibefm.pl|radiosupernova.pl
+@@/media/*/js/adblock_detector.js$domain=eska.pl|eskarock.pl|voxfm.pl|vibefm.pl|radiosupernova.pl|se.pl
+@@/media/*/zpr_footer/js/pageear.js$domain=eska.pl|eskarock.pl|voxfm.pl|vibefm.pl|radiosupernova.pl|se.pl
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/nbc-ad*.js$domain=notebookcheck-hu.com|notebookcheck.com|notebookcheck.net|notebookcheck.org|notebookcheck.biz|notebookcheck.it|notebookcheck.nl|notebookcheck.info|notebookcheck-tr.com|notebookcheck.se|notebookcheck-ru.com
 @@/needsharebutton.min.js$domain=leetcode-cn.com
@@ -2498,7 +2499,6 @@
 @@||docs.google.com^$generichide
 @@||docs.rucml.ru/e.gif?$~third-party
 @@||docs.w3cub.com^$generichide
-@@||doda.jp/cmn_web/img/brand/ad/ad_top_3.mp4
 @@||dodo.ac/np/images/$image,domain=nookipedia.com
 @@||dogus-ads-cdn.dygdigital.com/daion/daion-videojs-hlsjs-*.min.js
 @@||dogus-ads-cdn.dygdigital.com/live-broadcast-player/v1/bundle.js$domain=startv.com.tr
@@ -4884,6 +4884,7 @@
 @@||live.primis.tech/content/video/$domain=eurogamer.de
 @@||live.primis.tech/live$domain=eurogamer.de
 @@||live.primis.tech/live/liveVideo.php$domain=manchestereveningnews.co.uk
+@@||live.primis.tech/live/liveView.php$domain=akinator.com
 @@||live.primis.tech/live/liveView.php$domain=manchestereveningnews.co.uk
 @@||live.primis.tech/main/js/deflate.min.js$domain=eurogamer.de
 @@||live.primis.tech^$domain=eurogamer.net|gbnews.com|independent.co.uk|klaq.com|loudwire.com|screencrush.com|the-independent.com|vg247.com|xxlmag.com
@@ -5137,7 +5138,6 @@
 @@||metrics.ticketmaster.com/b/ss/$image
 @@||metrics.torproject.org^
 @@||metrics.us.playstation.com/b/ss/
-@@||mgnet.xyz/default/public/assets/*.js
 @@||mhn.quest/*.js$~3p
 @@||mhxk.com^*/main/entry.common.$script
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
@@ -5951,8 +5951,6 @@
 @@||porntrex.com/*/?mode=async&action=js_stats&rand=$image,domain=porntrex.com
 @@||porntube.com/adb_detector.js|$~3p
 @@||portal.autotrader.co.uk/advert/$~3p
-@@||portal.cityspark.com/PortalScripts/DailyCamera$domain=dailycamera.com
-@@||portal.cityspark.com/v1/event$domain=dailycamera.com
 @@||portal.volccdn.com^
 @@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com
 @@||pos.baidu.com^$subdocument,domain=bigpixel.cn
@@ -6106,6 +6104,7 @@
 @@||query.petametrics.com^$image,xmlhttprequest,domain=mechacomic.jp
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=lanacion.com.ar
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=ranker.com
+@@||qwhdcdn.cmcc-cs.cn^
 @@||qzonestyle.gtimg.cn^
 @@||r.linksprf.com/*/redirect?
 @@||r10s.jp/com/img/home/t.gif?$domain=24.rakuten.co.jp
