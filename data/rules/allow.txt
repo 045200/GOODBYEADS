@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-08-23 08:34:13（北京时间）
+! Version: 2026-08-23 20:15:17（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7975
+! Total count: 7969
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$popup,domain=datanodes.to,3p
@@ -601,6 +601,7 @@
 @@||ads.adfox.ru/*/prepareCode?$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru
 @@||ads.adthrive.com/api/$domain=adamtheautomator.com|packhacker.com|packinsider.com
 @@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=adamtheautomator.com|laurelberninteriors.com|packhacker.com|packinsider.com
+@@||ads.adthrive.com/builds/core/*/prebid.min.js$domain=laurelberninteriors.com
 @@||ads.adthrive.com/builds/core/*/vendor/prebid/*/prebid.min.js$domain=laurelberninteriors.com
 @@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|packhacker.com|packinsider.com
 @@||ads.adthrive.com/sites/*/ads.min.js$domain=laurelberninteriors.com
@@ -637,7 +638,6 @@
 @@||ads.midwayusa.com^$popup
 @@||ads.openai.com^$popup
 @@||ads.pinterest.com^$popup
-@@||ads.poshtata.online/*.js$domain=seir-sanduk.com
 @@||ads.poshtata.online/adsbygoogle.js$domain=seirsanduk.net
 @@||ads.privacy.qq.com^$document
 @@||ads.privacy.qq.com^$domain=privacy.qq.com
@@ -1898,7 +1898,6 @@
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.min.js$domain=linetv.tw
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads^$domain=in.gr
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls^
-@@||cdnqq.net/ad/api/popunder.js$script
 @@||cdnstatic.secure.spiegel.de/SP/*/grafik^
 @@||cdntrf.com/id-ingame.js$domain=ingame.de
 @@||cdntrf.com/lib/templates/index.js$domain=ingame.de
@@ -3125,7 +3124,6 @@
 @@||go.redirectingat.com^$document
 @@||go.trvdp.com/init/$domain=olhardigital.com.br
 @@||go.xliirdr.com/?*targetDomain=fikfapcams.com$domain=fikfap.com
-@@||go.xlirdr.com/api/models/vast$xhr
 @@||go2stream.net/stream/live/track/view/Tracking.php$domain=go2stream.net
 @@||gocomics.com/assets/ad-dependencies-$script,~3p
 @@||godlikeproductions.com/adblock/js/checks/fingerprint.js$domain=godlikeproductions.com
@@ -6190,7 +6188,6 @@
 @@||rest.edit.site/geoip-service/geoip$domain=systemshouse.com
 @@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
 @@||retcode.taobao.com^$document
-@@||retweetpicker.com^$generichide
 @@||reutersmedia.net/resources^
 @@||reutersmedia.net/resources_v*/js/rcom-scroll-tracker.js$domain=reuters.com
 @@||rfksrv.com/rfk$domain=spirithalloween.com
@@ -6390,7 +6387,6 @@
 @@||sdk.ptqy.gitv.tv^$document
 @@||sdkapi.sms.mob.com^$document
 @@||sdkconfig.ad.xiaomi.com^$important
-@@||sdltutorials.com/Data/Ads/AppStateBanner.jpg$~3p
 @@||sdn-global-audio-adswizz-cache.3qsdn.com/*/files/$other,media,domain=noz.de
 @@||se.com/_uce_/immutable/chunks/google-analytics.$script
 @@||se.monetate.net/js/*/custom.js$domain=debenhams.com
@@ -6400,7 +6396,6 @@
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||search.brave.com/search$xhr
 @@||search.kuwo.cn^
-@@||search.spotxchange.com/vmap/*&content_page_url=www.bsfuji.tv$xhr,domain=imasdk.googleapis.com
 @@||sears.com^*/analytics.sitecatalyst.js
 @@||sec.levexis.com/clients/nbty/$domain=puritan.com
 @@||seccdn-gl.imrworldwide.com/novms/js/*/*.js$domain=heraldsun.com.au
@@ -7565,7 +7560,6 @@
 @@||verticalscope-com.videoplayerhub.com/galleryplayer.js$domain=skyscrapercity.com
 @@||viamichelin.*/jQuery/ntpagetag.js
 @@||viamichelin.*/ntpagetag_vm.js
-@@||vid.springserve.com/vast/*einthusan.ca
 @@||video.520cc.cc/ad.php|
 @@||video.520cc.cc^$generichide
 @@||video.oms.eu/crossdomain.xml$domain=badische-zeitung.de
