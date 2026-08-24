@@ -2,7 +2,7 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-08-24 08:33:16（北京时间）
+! Version: 2026-08-24 20:21:40（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 7970
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -200,7 +200,6 @@
 @@/site/ad/*$domain=islide.cc
 @@/site=*/size=*/viewid=$domain=morningstar.in
 @@/social-share.$domain=patentguru.com
-@@/speedtest/upload.php$domain=speedtest.net
 @@/static/ad/main.$domain=bbmei.top|bbmen.top
 @@/store_ad/*$domain=pcstore.com.tw
 @@/sxp/i/*.js$domain=linkvertise.com
@@ -509,6 +508,7 @@
 @@||ad.mail.ru/adp/?_SITEZONE=15&json=1^$xmlhttprequest,domain=mail.ru
 @@||ad.mcloud.139.com^$document
 @@||ad.nl/ad/
+@@||ad.ourgame.com^
 @@||ad.ourgame.com^$document
 @@||ad.smartmediarep.com/NetInsight/video/smr$domain=programs.sbs.co.kr
 @@||ad.thsi.cn/siteHome/
@@ -894,6 +894,7 @@
 @@||animesrbija.com^$generichide
 @@||animeunity.it/stream.php$generichide
 @@||anisearch.*^$generichide
+@@||aniview.com/api/$script,xhr,domain=gamingbible.co.uk|ladbible.com|stirr.com
 @@||aniview.com/api/adserver/spt?$domain=sportbible.com
 @@||ankrzkz.sbs/js/boxad.js?$script,~third-party
 @@||annhe.net^$generichide
@@ -1489,6 +1490,7 @@
 @@||camhub.cc/player/player_ads.html
 @@||camhub.world/player/player_ads.html
 @@||camsclips.com/player/stats.php?event=Init$image
+@@||camspacelive.com/widgets/$domain=lemoncams.com
 @@||canada.com/js/ooyala/comscore.js
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||canadiantire.ca^*/analytics.sitecatalyst.js
@@ -1689,7 +1691,6 @@
 @@||cdn.georiot.com/snippet.js$domain=techadvisor.co.uk
 @@||cdn.georiot.com/snippet.js$domain=webwereld.nl
 @@||cdn.getblueshift.com/blueshift.js$script,domain=rentcafe.com
-@@||cdn.gigya.com/js/gigya.services.plugins.base.min.js$domain=muscleandfitness.com
 @@||cdn.gledaitv.*/embed.php$generichide
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 @@||cdn.inside-handy.de/ih/top/
@@ -4521,7 +4522,6 @@
 @@||informazionefiscale.it^$generichide
 @@||infotel.ca/images/ads/$image,~3p
 @@||infotop.jp/html/ad/$image,~3p
-@@||infowars.com/wp-content/themes/$image
 @@||infusionsoft.app/aff.html$subdocument,domain=pages.infusionsoft.net|reginadancecity.ca
 @@||infusionsoft.com/aff.html$subdocument,domain=pages.infusionsoft.net|reginadancecity.ca
 @@||ing-diba.de^*/sitestat.js
@@ -4913,7 +4913,6 @@
 @@||lobechat.com/_next/static/chunks/
 @@||lobi.co/1/track/event/
 @@||local.adguard.org^
-@@||localbitcoins.com/ads_edit
 @@||log-api.pangolin-sdk-toutiao-b.com^
 @@||log-api.pangolin-sdk-toutiao.com^
 @@||log.go.com/log$xmlhttprequest,domain=disneyvacationclub.disney.go.com
@@ -4954,7 +4953,6 @@
 @@||luna-dict-community.nosdn.127.net^
 @@||luoxiadushu.com^$generichide
 @@||lustich.de.adadapter.netzathleten-media.de/API-1.0/*/naMediaAd.js$domain=lustich.de
-@@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||m.beautypageants.in^$generichide
 @@||m.ctrip.com^
 @@||m.da.mgtv.com/m/player?_type_object=$domain=m.mgtv.com
@@ -4992,6 +4990,7 @@
 @@||mailingtechnology.com/tracking/tracking_$~third-party
 @@||maimemo.oss-cn-hangzhou.aliyuncs.com/apk/*.apk$domain=maimemo.com
 @@||main.govpilot.com/jet/js/newrelic.js$~third-party
+@@||mainstream.whatfinger.com/wp-content/plugins/meks-easy-ads-widget/css/style.css$domain=mainstream.whatfinger.com
 @@||majesy.com^$generichide
 @@||mall.360.cn^
 @@||manage.wix.com/_api/wix-laboratory-server/laboratory/conductAllInScope?scope=vod$domain=editor.wixapps.net
@@ -5590,6 +5589,7 @@
 @@||p.jwpcdn.com/*/skins/$3p
 @@||p.qlogo.cn^$document
 @@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|getty.edu|petsafe.com|robertsspaceindustries.com
+@@||p1-dcd.byteimg.com^
 @@||p11.techlab-cdn.com^$domain=wizzair.com
 @@||p3-cpay.byteimg.com^
 @@||p3-dcd-sign.byteimg.com^
@@ -5607,12 +5607,10 @@
 @@||p6-flow-imagex-sign.byteimg.com^
 @@||p9-dcd-sign.byteimg.com^
 @@||p9-dcd.byteimg.com^
-@@||p9-dy.byteimg.com
 @@||p9-dy.byteimg.com^
 @@||p9-flow-imagex-sign.byteimg.com^
 @@||pacaio.match.qq.com^$document
 @@||pagead2.googlesyndication.com/gampad/ads?*laurelberninteriors.com*&iu=%2F18190176%2C22509719621%2FAdThrive_Video_Collapse_Autoplay_$domain=imasdk.googleapis.com
-@@||pagead2.googlesyndication.com/gampad/ads?*laurelberninteriors.com*&iu=%2F18190176%2C22509719621%2FAdThrive_Video_In-Post_ClicktoPlay_$domain=imasdk.googleapis.com
 @@||pagead2.googlesyndication.com/getconfig/sodar$domain=forum.release-apk.com
 @@||pagead2.googlesyndication.com/getconfig/sodar$domain=freemcserver.net
 @@||pagead2.googlesyndication.com/pagead/$domain=nationalpost.com
@@ -6207,7 +6205,6 @@
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 @@||rollercoin.com/static/img/referral_160-600.png$image
 @@||rollingstone.de/resources/js/webtrekk.js
-@@||roomlala.*/assets/myspace/myprofile/sponsorship_controller-*.js
 @@||rosefile.net^$generichide
 @@||router.asus.com^$document
 @@||routerlogin.com^$document
@@ -6385,6 +6382,7 @@
 @@||sdk.live.360.cn^
 @@||sdk.mrf.io/statics/marfeel-sdk.js$domain=mundodeportivo.com
 @@||sdk.mrf.io/statics/marfeel-sdk.js$script,domain=autoplus.fr|computerhoy.20minutos.es|mundodeportivo.com
+@@||sdk.open.talk.gepush.com^
 @@||sdk.ptqy.gitv.tv^$document
 @@||sdkapi.sms.mob.com^$document
 @@||sdkconfig.ad.xiaomi.com^$important
@@ -7341,6 +7339,7 @@
 @@||tracklog.58.com/referrer_ershouche_m_Now.js$domain=m.renrenche.com
 @@||trackonomics.net/client/$script,domain=popsugar.com
 @@||tractorshed.com/photoads/upload/$~3p
+@@||tradingref.com^$generichide
 @@||tradingview.com/adx/$subdocument,domain=adx.ae
 @@||traffichaus.com/scripts/banner-ad.js
 @@||trakel.org/*/image_resize.php?ad=
@@ -7460,6 +7459,7 @@
 @@||ujinbi.com/UpLoadFile/guanggao/
 @@||uk-script.dotmetrics.net/Scripts/DotmetricsVideoTracking.js$domain=footballtransfers.com
 @@||uk-script.dotmetrics.net/VideoPlugin$domain=footballtransfers.com
+@@||ukbride.co.uk/css/*/adverts.css
 @@||ukw.jp^*/?cbk=$script,domain=system5.jp
 @@||ulifestyle.com.hk/store/prod/iskypost/res/js/dfp-
 @@||ulog*.*.com^$important
