@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-09-05 09:42:42（北京时间）
+! Version: 2026-09-05 22:06:31（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7928
+! Total count: 7926
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$popup,domain=datanodes.to,3p
 @@&ad_type=$domain=ultimate-guitar.com
@@ -55,7 +55,6 @@
 @@/ad.sense/ad-m.js$~3p
 @@/ad/banner/_adsense_/_adserver/_adview_.ad.json
 @@/ad/images/*$domain=37-express.com|vnnox.com
-@@/adBlockDetector.js$~3p,domain=biters.io|fisp.io
 @@/adLoader.$domain=shejiben.com
 @@/ad_banner/*$domain=donnaart.com.tw
 @@/ad_file/*$domain=7-11.com.tw|pxmart.com.tw
@@ -507,6 +506,7 @@
 @@||ad.mail.ru/adp/?_SITEZONE=15&json=1^$xmlhttprequest,domain=mail.ru
 @@||ad.mcloud.139.com^$document
 @@||ad.nl/ad/
+@@||ad.ourgame.com^
 @@||ad.ourgame.com^$document
 @@||ad.smartmediarep.com/NetInsight/video/smr$domain=programs.sbs.co.kr
 @@||ad.thsi.cn/siteHome/
@@ -908,7 +908,6 @@
 @@||anyporn.com/js/jquery.easy-autocomplete-my.js
 @@||anyporn.com/js/videopreview.js^
 @@||anyporn.com/js_ads/banner.js$~3p
-@@||anyporn.com/player/kt_player_*.jsx
 @@||aobi.100bt.com/play/ad/ad*.swf
 @@||aol.com/mm_track/slideshow/$subdocument
 @@||aolcdn.com/js/mg2.js$domain=autoblog.com|autos.aol.com|dailyfinance.com
@@ -1805,6 +1804,7 @@
 @@||cdn.segmentify.com^$domain=pttavm.com
 @@||cdn.segmentify.com^$script,domain=gratis.com
 @@||cdn.shopify.com/*/trekkie*.js$domain=koh.com
+@@||cdn.shopify.com/extensions/*/ba_tracking.js$domain=ridge.com
 @@||cdn.shopify.com/oxygen-v2/*/assets/Clarity-$domain=thegoodguys.com.au
 @@||cdn.shopify.com/shopifycloud/arrive-server/pay/vite-pay/assets/AnalyticsProvider*.js$domain=shop.app
 @@||cdn.smartclip-services.com^$script,domain=cerebriti.com
@@ -4262,7 +4262,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=bbcamerica.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=beinsports.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=bestgames.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=biters.io|fisp.io
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=cdn.htmlgames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=cdn.witchhut.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=chili.com
@@ -5180,7 +5179,6 @@
 @@||mobile.pipe.aria.microsoft.com^$document
 @@||mobile.twitter.com^$document
 @@||mobileads.indiatimes.com/Web_Ads/js/22april16/prebid_1.js$script,domain=m.timesofindia.com
-@@||mobilist.kuwo.cn^
 @@||mobinovels.com^$generichide
 @@||moea.gov.tw/EgisWeb/Scripts/google-analytics.js
 @@||moegirl.org.cn^$generichide
@@ -7461,7 +7459,6 @@
 @@||user.userguiding.com/sdk/identify$xmlhttprequest,domain=xaris.ai
 @@||userapi.com^*.gif?extra=$image,domain=vk.com
 @@||usercdn.com/tmp/status.html
-@@||usercdn.com^$domain=userscloud.com
 @@||userreport.com/*/settings.js$domain=csb.app
 @@||userreport.com/SystemSettings.js$domain=csb.app
 @@||userreport.com/computools/launcher.js$domain=csb.app
@@ -7630,6 +7627,7 @@
 @@||web.snrbox.com/*?tracker=$domain=carrefourpl.snrpage.com
 @@||web.snrbox.com/rtom-proxy/rtom/configs/getPublicConfigForContext$domain=komputronik.pl
 @@||web.snrbox.com/tck/$xmlhttprequest,redirect=nooptext,domain=komputronik.pl
+@@||web.telegram.org^$generichide
 @@||webbtelescope.org/files/live/sites/webb/$image,~3p
 @@||webbyawards.com/wp-content/uploads/sites/*/json^
 @@||webcache.googleusercontent.com^$generichide
