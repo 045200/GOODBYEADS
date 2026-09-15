@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-09-15 10:09:53（北京时间）
+! Version: 2026-09-15 23:48:39（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 7877
+! Total count: 7865
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$popup,domain=datanodes.to,3p
 @@&ad_type=$domain=ultimate-guitar.com
@@ -129,6 +129,7 @@
 @@/dh-anti-adblocker/assets/js/prebid-ads.js
 @@/dh-anti-adblocker/public/js/prebid-ads.js
 @@/dh-new-anti-adblocker-lite/public/js/prebid-ads.js
+@@/favicon.ico^$domain=cinefreak.nl
 @@/fingerprint.$domain=abchina.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|hnair.com|pop-fashion.com
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
@@ -206,7 +207,6 @@
 @@/urchin.js$domain=on.cc
 @@/vast.php?idzone=$domain=jptt.tv
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net
-@@/weborama.js$~3p,domain=zertalious.xyz|digworm.io
 @@/webtracking/*$domain=pasts.lv
 @@/wp-banners.js$domain=azsoft.*
 @@/wp-content/*/social_$domain=servercat.me
@@ -662,7 +662,6 @@
 @@||ads.viralize.tv/t-bid-opportunity/$domain=automoto.it|moto.it
 @@||ads.vk.com^$popup
 @@||ads.vk.ru^$popup
-@@||ads.x.com^$popup
 @@||adsafeprotected.com/iasPET.$script,domain=independent.co.uk|reuters.com|wjs.com
 @@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com|wjs.com
 @@||adsales.snidigital.com/*/ads-config.min.js$script
@@ -1235,7 +1234,6 @@
 @@||banner-hiroba.com/wp-content/uploads/$image,~3p
 @@||banner.infoey.com/adbanner.png$domain=phineypet.com
 @@||banners.s1.citilink.ru^$image,domain=citilink.ru
-@@||bapi.adsafeprotected.com/bapi?anId=*&auth_token=$domain=entrepreneur.com
 @@||barax.de/cache/images/logo-*x*-
 @@||barclays.touchclarity.com^$domain=barclaycard.co.uk
 @@||base64.online/ads.txt
@@ -1407,7 +1405,6 @@
 @@||bytedance.com/ttwid/union/register/
 @@||bytegoofy.com/ad/$domain=jinritemai.com
 @@||c-web.cedyna.co.jp/customer/img/spacer.gif?$~third-party
-@@||c.amazon-adsystem.com/aax2/amzn_ads.js$domain=mylifetime.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=atozmath.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=epochtimes.de
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=fitforfun.de
@@ -1437,6 +1434,7 @@
 @@||c.webtrends-optimize.com/acs/$image,script,domain=tvlicensing.co.uk
 @@||c.y.qq.com^
 @@||c.yandexcdn.com/js/adv/ads.js$domain=yandexcdn.com
+@@||c.yandexcdn.com/js/adv/advert3.js$domain=yandexcdn.com
 @@||c.yandexcdn.com/js/adv/fuckadblock.js$domain=yandexcdn.com
 @@||c.youdao.com^$document
 @@||c1.skype.com^$document
@@ -1480,7 +1478,6 @@
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
 @@||cat.telia.no/gtm.js$script,domain=telia.no
 @@||catalog.mann-filter.com/media/werbebanner^
-@@||catchapp.net/ad/img/$~3p
 @@||cbjs.baidu.com/js/m.js$domain=fxpan.com|iyingdi.com|pic.tiexue.net
 @@||cbn.globoradio.globo.com/estaticos/js/google-analytics.js$domain=cbn.globoradio.globo.com
 @@||cbs.com^$generichide
@@ -1640,7 +1637,6 @@
 @@||cdn.cxense.com/t_init.min.js$domain=dhnet.be
 @@||cdn.datatables.net^
 @@||cdn.deviceinf.com^$domain=etail.market
-@@||cdn.digiteka.com/player/PrebidLibrary.js$domain=ultimedia.com
 @@||cdn.dimml.io/dimml.js$domain=consumentenbond.nl
 @@||cdn.dimml.io/static/*.js$domain=consumentenbond.nl
 @@||cdn.dsmcdn.com/sfx/mergen/*.js$domain=trendyol-milla.com
@@ -2491,7 +2487,6 @@
 @@||download.amd.com/js/analytics/analyticscore-min.js$domain=amdgaming.com
 @@||download.amd.com/js/analytics/analyticscore.js
 @@||download.amd.com/js/analytics/analyticsinit.js$domain=amdgaming.com
-@@||download.inventivetalent.org/external/adfly/make.php
 @@||download.megaup.net/*.js$~3p
 @@||download.megaup.net/openads.js$script,~third-party
 @@||download.mokeedev.com^$genericblock,generichide
@@ -3087,7 +3082,6 @@
 @@||go.redirectingat.com^$document
 @@||go.trvdp.com/init/$domain=olhardigital.com.br
 @@||go.xliirdr.com/?*targetDomain=fikfapcams.com$domain=fikfap.com
-@@||go.xlirdr.com/api/models/vast$xhr
 @@||go2stream.net/stream/live/track/view/Tracking.php$domain=go2stream.net
 @@||gocomics.com/assets/ad-dependencies-$script,~3p
 @@||godlikeproductions.com/adblock/js/checks/fingerprint.js$domain=godlikeproductions.com
@@ -3946,7 +3940,6 @@
 @@||googletagservices.com/tag/js/gpt.js$domain=ikitesurf.com
 @@||googletagservices.com/tag/js/gpt.js$domain=imgur.com
 @@||googletagservices.com/tag/js/gpt.js$domain=koigaku.machicon.jp
-@@||googletagservices.com/tag/js/gpt.js$domain=ndtv.in
 @@||googletagservices.com/tag/js/gpt.js$domain=news.tvb.com
 @@||googletagservices.com/tag/js/gpt.js$domain=phileweb.com
 @@||googletagservices.com/tag/js/gpt.js$domain=scotsman.com,badfilter
@@ -4043,7 +4036,6 @@
 @@||hcaptcha.com/*/api.js
 @@||hcaptcha.com/captcha/$script,subdocument
 @@||hcaptcha.com^*/api.js
-@@||hdbox.ws^$generichide
 @@||hdnumerique.com/tpl/jscript/advert.js
 @@||hdsky.net/ad/down.png
 @@||hdslb.com/bfs/archive/*@$domain=bilibili.com,image
@@ -5200,7 +5192,6 @@
 @@||mp4upload.com/embed-*.html$popup
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|bravotv.com|cnbc.com|gymshark.com|motortrendondemand.com|nbcsports.com
 @@||mparticle.uc.cn^$document
-@@||mps.nbcuni.com/request/page/jsonp?CALLBACK=mpsCallback&cat=home$domain=nbcsports.com
 @@||mpsnare.iesnare.com/script/logo.js$domain=aswbe.ana.co.jp
 @@||mpsnare.iesnare.com/script/logo.js$domain=lenovo.com
 @@||mpsnare.iesnare.com/snare.js$domain=aswbe.ana.co.jp
@@ -5741,7 +5732,6 @@
 @@||photofunia.com/effects/$image,~3p
 @@||photopea.com/promo/no_ads.png
 @@||photos.google.com^$generichide
-@@||photos.timesofindia.com/toi_js_ads.cms
 @@||pi.ai/ingest/$domain=pi.ai
 @@||piaotia.com/scripts/readindex/tongji.js
 @@||pic.imgdb.cn
@@ -7668,7 +7658,6 @@
 @@||wp.pl/*-FwkqOxhmGz4XCSo7GGYbPhcJKjsYZhs-$script,domain=pilot.wp.pl
 @@||wp.pl^$generichide
 @@||wpfc.ml/b.gif$image,domain=holybooks.com
-@@||wplocker.com/advertisement.js
 @@||wpnrtnmrewunrtok.xyz/*preview/*/preview.jpg$image,domain=camwhores.tv
 @@||wpnrtnmrewunrtok.xyz/main/$image,domain=camwhores.tv
 @@||wpnrtnmrewunrtok.xyz^$domain=camwhores.ru.com|camvideos.org
@@ -7709,7 +7698,6 @@
 @@||www.paypalobjects.com^
 @@||www.pornhub.com^$document
 @@||www.pussyspace.com/class/captcha/arrow.png|
-@@||www.pussyspace.com/class/captcha/captcha.php|
 @@||www.pussyspace.com/favicon.ico|
 @@||www.pussyspace.com/player/loading.gif|
 @@||www.pussyspace.com/style/img/navbg.hover.png|
