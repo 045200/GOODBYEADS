@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-10-25 10:01:32（北京时间）
+! Version: 2026-10-25 23:09:27（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8055
+! Total count: 8062
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$popup,domain=datanodes.to,3p
 @@&ad_type=$domain=ultimate-guitar.com
@@ -48,7 +48,6 @@
 @@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/xv7\/[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}\/\d\/xv_\d{1,2}_t\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/[a-z]{4,14}\.[a-z]{3,4}\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\//$domain=intercelestial.com|linegee.net|pahe.plus
 @@/^https:\/\/www\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,domain=pussyspace.com|pussyspace.net,~third-party
-@@/^https:\/\/www\.pussyspace\.(?:com|net)\/upload\/poster_img_url\/par\/c3Rhci9[%0-9A-Za-z]{16,32}&size_width\/par\/160\/l\.jpg$/$image,domain=pussyspace.com|pussyspace.net
 @@/_js/pubfig.min.js$domain=digimanie.cz|relaxuj.cz|svethardware.cz|svetmobilne.cz,~third-party
 @@/ad-close.png$domain=ch.com
 @@/ad-provider.js$xmlhttprequest,domain=doods.to|veev.to
@@ -196,6 +195,7 @@
 @@/showads.$domain=rte.ie,~third-party
 @@/site/ad/*$domain=islide.cc
 @@/site=*/size=*/viewid=$domain=morningstar.in
+@@/smarttag.js$domain=rte.ie,~third-party
 @@/social-share.$domain=patentguru.com
 @@/store_ad/*$domain=pcstore.com.tw
 @@/sxp/i/*.js$domain=linkvertise.com
@@ -1482,7 +1482,6 @@
 @@||c.webtrends-optimize.com/acs/$image,script,domain=tvlicensing.co.uk
 @@||c.y.qq.com^
 @@||c.yandexcdn.com/js/adv/ads.js$domain=yandexcdn.com
-@@||c.yandexcdn.com/js/adv/advert3.js$domain=yandexcdn.com
 @@||c.youdao.com^$document
 @@||c1.skype.com^$document
 @@||cache.nymag.com^*/clickability.js
@@ -2894,8 +2893,8 @@
 @@||flipboard.com/*/videojs-contrib-ads.*.bundle.js
 @@||flormar.webinstats.com^$domain=flormar.com.tr
 @@||fltaradio.com/js/ads.js
+@@||fluid.4strokemedia.com/www/delivery/$domain=footballtransfers.com
 @@||flyert.com/plug/socialShare/js/social-share.
-@@||flyfile.app^$generichide
 @@||flyordie.com/games/online/iframeafg*.html
 @@||fm.ipinyou.$domain=ipinyou.com.cn
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
@@ -4407,6 +4406,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=manoramamax.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=matchtv.ru|sportbox.ru
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=medyaradar.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=meilleurpronostic.fr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mein-schoener-garten.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=memurlar.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mirror.co.uk
@@ -5387,6 +5387,7 @@
 @@||myao.adocean.pl/|$domain=tvp.pl
 @@||mybuys.com/webrec/wr.do?
 @@||mycargo.rzd.ru/dst/scripts/common/analytics-helper.js$~third-party
+@@||mycastapp.*.amazonaws.com/assets/ads.js$domain=mycast.io
 @@||mycleverpush.com/iframe?$domain=bsdex.de
 @@||mycommunitynow.com/includes/JI_trafficTracking.js$domain=mycommunitynow.com
 @@||myfamilycominc.tt.omtrdc.net^$domain=ancestry.com|ancestry.co.uk|ancestry.ca|ancestry.de|ancestry.it|ancestry.fr|ancestry.se|ancestry.mx
@@ -6063,6 +6064,7 @@
 @@||promo.zendesk.com^$xmlhttprequest,domain=promo.com
 @@||promods.net/*.js$~third-party
 @@||proquest.com/modules.gz/snowplow/snowplow-
+@@||protoawe.com/tube-player/?psid=*&accessKey=*jasminVideoPlayerContainer$domain=pornhd.com
 @@||proton.me^$cookie
 @@||proton.me^$generichide
 @@||protopage.com^$generichide
@@ -6098,6 +6100,7 @@
 @@||pubads.g.doubleclick.net/ondemand/*/content/*/streams/*.m3u8$domain=10.com.au|10play.com.au
 @@||pubads.g.doubleclick.net/ondemand/*/content/*/vid/*/streams$domain=cbs.com|history.com|paramountplus.com
 @@||pubads.g.doubleclick.net/ondemand/hls/$domain=history.com
+@@||pubads.g.doubleclick.net/ondemand/hls/content/$domain=play.aetv.com
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/vid/*/streams$domain=sbs.com.au
 @@||pubads.g.doubleclick.net/ssai/
 @@||pubads.g.doubleclick.net/ssai/event/$xmlhttprequest,domain=10.com.au|10play.com.au
@@ -6329,6 +6332,7 @@
 @@||s-pt.ppstatic.pl/o/js/pp-ads/ads.js
 @@||s.206ads.com/core.js$domain=androidauthority.com
 @@||s.206ads.com/helper.js$domain=androidauthority.com
+@@||s.206ads.com/prebid.js$domain=androidauthority.com
 @@||s.adadapter.netzathleten-media.de/*/naMediaAd.js$domain=wooco.de
 @@||s.click.alimama.com^$document
 @@||s.click.taobao.com^$document
@@ -7407,6 +7411,7 @@
 @@||trackonomics.net/client/$script,domain=popsugar.com
 @@||tractorshed.com/photoads/upload/$~third-party
 @@||tradingview.com/adx/$subdocument,domain=adx.ae
+@@||traffichaus.com/scripts/*ad*.js$domain=hdzog.com
 @@||traffichaus.com/scripts/banner-ad.js
 @@||trafficmanager.anyclip.com^$domain=zerotackle.com
 @@||trakel.org/*/image_resize.php?ad=
@@ -7551,6 +7556,7 @@
 @@||ups.xplosion.de/ctx$domain=ingame.de
 @@||ups.xplosion.de/ctx?event_id=$domain=tz.de
 @@||upstream.to/js/dnsads.js
+@@||uptostream.com^$csp=worker-src 'none'
 @@||upxin.net^$generichide
 @@||urbanmilwaukee.com/wp-content/themes/*/js/prebid-ads.js
 @@||urlcheck.hulu.com/crossdomain.xml
@@ -7593,6 +7599,7 @@
 @@||v.fwmrm.net/crossdomain.xml$xmlhttprequest
 @@||v.me/personal/assets/ntpagetag-$script
 @@||v.miguvideo.com^
+@@||v.poki-cdn.com^$domain=vectaria.io
 @@||v144.philanthropy.com/DG/DEFAULT/rest/rpc/
 @@||v16m-default.akamaized.net^
 @@||v2cross.com^$generichide
@@ -7620,6 +7627,7 @@
 @@||verizon.com/images/track/track.gif?track=load&$xmlhttprequest
 @@||verticalscope-com.videoplayerhub.com/galleryplayer.js$domain=skyscrapercity.com
 @@||vg247.com/wp-content/themes/vg247/scripts/AdsLoad.js
+@@||vi-serve.com/vis-media/*$domain=9gag.com
 @@||viamichelin.*/jQuery/ntpagetag.js
 @@||viamichelin.*/ntpagetag_vm.js
 @@||vid.springserve.com/vast/*einthusan.com
@@ -7882,7 +7890,6 @@
 @@||www.pussyspace.net/style/03/img/dropmenudownarrow.png|
 @@||www.pussyspace.net/style/03/img/navbg.hover.png|
 @@||www.pussyspace.net/style/03/img/navbg.png|
-@@||www.pussyspace.net/style/03/img/pinkbg.gif|
 @@||www.pussyspace.net/style/03/img/speed-dials.png|
 @@||www.pussyspace.net/style/03/img/x-sprite.png|
 @@||www.pussyspace.net/style/10/img/logo.png|
