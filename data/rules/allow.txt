@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/045200/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-10-26 10:02:43（北京时间）
+! Version: 2026-10-27 01:46:23（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8062
+! Total count: 8067
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$popup,domain=datanodes.to,3p
 @@&ad_type=$domain=ultimate-guitar.com
@@ -660,6 +660,7 @@
 @@||ads.themoneytizer.com/*/gen.js$domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@||ads.tiktok.com^$document
 @@||ads.tiktok.com^$generichide
+@@||ads.tiktok.com^$popup
 @@||ads.tiktok.com^$~third-party
 @@||ads.twitter.com^$domain=ads.twitter.com|analytics.twitter.com
 @@||ads.twitter.com^$popup
@@ -687,6 +688,7 @@
 @@||adsninja.ca/ads_$script,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@||adsninja.ca/adsninja_client.js$script,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@||adsninja.ca^$stylesheet,xmlhttprequest,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
+@@||adspace.pro^$domain=adspace.pro
 @@||adspirit.de^$domain=kinopolis.de
 @@||adst.mp.pl^$domain=mp.pl
 @@||adsterra.com/images/*.png$image,domain=unlockapk.com
@@ -1354,6 +1356,7 @@
 @@||birdflock.unipus.cn/ufe/third/sensorsdata/*/sensorsdata.min.js$domain=ucloud.unipus.cn
 @@||bitauto.com/bglogpostlog.js
 @@||bitbucket.org^$generichide
+@@||bitcoinbazis.hu/advertise-with-us/$~third-party
 @@||bitent.com/lock_html5/adscontrol.js$domain=bitent.com
 @@||biv.gazeta.pl/resources/emailLoginPage__front/$domain=oauth.gazeta.pl
 @@||biz.yelp.com/ads?$popup
@@ -2794,6 +2797,8 @@
 @@||ez3c.tw^$generichide
 @@||ezodn.com/cmp/gvl.json$xmlhttprequest
 @@||ezodn.com/tardisrocinante/lazy_load.js$script,domain=origami-resource-center.com
+@@||ezoic.net/tardisrocinante/script_delay.js$domain=doncorgi.com
+@@||ezsoftwarestorage.com^$image,media,domain=ezfunnels.com
 @@||f*.baidu.com/it/u=*,*&fm=$domain=baidu.com
 @@||f-cashloan.snssdk.com^
 @@||f-cpay.snssdk.com^
@@ -4376,6 +4381,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gmg-wjxt-prod.cdn.arcpublishing.com|news4jax.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=goducks.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gostanford.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gousfbulls.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=greatdaygames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gsgazete.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=h5.4j.com
@@ -5954,7 +5960,6 @@
 @@||player.anyclip.com/anyclip-widget/$domain=zerotackle.com
 @@||player.avplayer.com/script/2/v/avcplayer.js$domain=adnkronos.com
 @@||player.avplayer.com^$domain=nuovavenezia.it
-@@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com|tiz-cycling-live.io
 @@||player.clevercast.com/players/video-js/video-js-plugins/videojs.ads.min.js
 @@||player.enetres.net/js/videojs-plugins/videojs-ads-contrib/videojs.ads.js
 @@||player.ex.co/config$domain=pagesix.com
@@ -6244,6 +6249,7 @@
 @@||register*mi.com^
 @@||register.xmpush.xiaomi.com^$document
 @@||registro.pse.com.co/PSENF/assets/js/fingerprint.min.js$script,domain=registro.pse.com.co
+@@||rek.www.wp.pl/*.gif$domain=wp.pl
 @@||relevant-digital.com^$script,domain=20min.ch
 @@||remodelista.com/media/js/libs/ga_social_tracking.js
 @@||remote-data.urbanairship.com^$app=com.caribou.caribouapp
@@ -6283,6 +6289,7 @@
 @@||rm-script.dotmetrics.net/videopluginhit.gif?$domain=footballtransfers.com
 @@||rm.redbull.com/gtm.js$domain=redbull.com
 @@||rm.sina.com.cn/minisite/*/css/art_normal.css$domain=client.sina.cn
+@@||rmbooru.org/data/image/$domain=rmbooru.org
 @@||rmcpay.com/js/google-analytics.js|
 @@||rmdown.com/ads.js
 @@||rmf.hit.gemius.pl/gplayer.js$domain=rmfon.pl
@@ -6746,7 +6753,6 @@
 @@||sltrib.com/pb/resources/scripts/utils/ads/ads.js
 @@||smart.360.cn^
 @@||smartadserver.com/ac?$domain=bildderfrau.de
-@@||smartadserver.com/call/pubx/*/M/$domain=vbox7.com
 @@||smartadserver.com/genericpost$domain=filmweb.pl
 @@||smartclip.net/?plc=$domain=energy.de
 @@||smartclip.net/ads?type=$domain=energy.de
@@ -6775,7 +6781,6 @@
 @@||so-magazyn.pl^$generichide
 @@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
 @@||sobot.com^
-@@||soefart.dk^$generichide
 @@||sofire.baidu.com^$document
 @@||sofire.bdstatic.com^$document
 @@||soft.tbs.imtt.qq.com^$document
@@ -6837,6 +6842,7 @@
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||spiele.rtl.de/landingpage/index/$document
 @@||spieletipps.de/js/smb-tracking.js
+@@||spinbot.com/js/adsbygoogle.js
 @@||spir.hit.gemius.pl/gplayer.js$script,domain=auto.cz
 @@||spoc.sydtrafik.dk/CherwellPortal/dist/app/common/analytics/Analytics.js$~third-party
 @@||spolecznosci.net/js/reklama/advertisement.js
@@ -8044,7 +8050,6 @@
 @@||zeekmagazine.com/wp-content/plugins/wp-ad-guru/assets/js/adguru.js
 @@||zeit.de/piwik/piwik.js$domain=schach.zeit.de
 @@||zeit.de/static/js/webtrekk/webtrekk_$script,domain=schach.zeit.de
-@@||zeperfs.com^$generichide
 @@||zeroupload.com^$generichide
 @@||zertalious.xyz^$generichide
 @@||zhaiyd5.com^$script,domain=louzhong8.com|miwens.com
